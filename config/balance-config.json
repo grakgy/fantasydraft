@@ -1,0 +1,365 @@
+{
+  "version": "2.0",
+  "draft": {
+    "optionsPerRound": 5,
+    "fixedGoalkeeperRound": false,
+    "minSquadSize": 11,
+    "maxSquadSize": 11,
+    "candidateShortageRule": "show_all_remaining",
+    "zeroCandidateTargetUseConsumed": false,
+    "endDraftRequirements": [
+      "at_least_one_goalkeeper",
+      "selected_formation_has_valid_starting_xi"
+    ],
+    "formationSelectedBeforeDraft": true,
+    "starterSlots": 11,
+    "candidateCard": {
+      "showRadar": true,
+      "showEightNumericRatings": true,
+      "ratingPrecision": 1,
+      "showRawFmAttributes": false,
+      "showRatingFormulaBreakdown": false,
+      "outfieldAxisOrder": [
+        "防守",
+        "身体",
+        "速度",
+        "视野",
+        "进攻",
+        "技术",
+        "制空",
+        "精神"
+      ],
+      "goalkeeperAxisOrder": [
+        "拦截射门",
+        "身体",
+        "速度",
+        "精神",
+        "指挥防守",
+        "意外性",
+        "制空",
+        "大脚开球"
+      ],
+      "radarScaleMin": 0,
+      "radarScaleMax": 100
+    }
+  },
+  "draftPlaystyles": [
+    {
+      "id": "high_press",
+      "name": "高位压迫",
+      "tagline": "用持续跑动把球抢回来",
+      "description": "强调前场压迫、快速回收和高位防线保护。",
+      "demands": ["跑动投入", "对抗续航", "高位保护"],
+      "fitSignals": [
+        { "label": "跑动投入", "attributes": { "工作投入": 3, "团队合作": 1, "耐力": 2 } },
+        { "label": "对抗续航", "attributes": { "耐力": 3, "侵略性": 2, "勇敢": 1, "强壮": 1 } },
+        { "label": "高位保护", "attributes": { "预判": 3, "速度": 2, "爆发力": 2, "决断": 1, "选位": 1 } }
+      ],
+      "goalkeeperSignals": [
+        { "label": "出击保护", "attributes": { "出击(倾向)": 2, "预判": 2, "速度": 1, "决断": 1 } },
+        { "label": "后场指挥", "attributes": { "指挥防守": 2, "集中": 1, "团队合作": 1, "选位": 1 } },
+        { "label": "快速处理", "attributes": { "停球": 1, "传球": 1, "大脚开球": 1, "镇定": 1 } }
+      ]
+    },
+    {
+      "id": "possession",
+      "name": "控球组织",
+      "tagline": "用控传与决策掌控比赛",
+      "description": "强调稳定出球、空间观察和受压下的技术处理。",
+      "demands": ["控传基础", "观察决策", "抗压处理"],
+      "fitSignals": [
+        { "label": "控传基础", "attributes": { "传球": 3, "停球": 3, "技术": 2, "团队合作": 1 } },
+        { "label": "观察决策", "attributes": { "视野": 3, "决断": 3, "预判": 1, "无球跑动": 1 } },
+        { "label": "抗压处理", "attributes": { "镇定": 3, "技术": 2, "停球": 2, "灵活": 1, "平衡": 1 } }
+      ],
+      "goalkeeperSignals": [
+        { "label": "后场出球", "attributes": { "传球": 2, "停球": 2, "手抛球": 1, "大脚开球": 1 } },
+        { "label": "观察决策", "attributes": { "视野": 2, "决断": 2, "预判": 1 } },
+        { "label": "受压稳定", "attributes": { "镇定": 2, "集中": 1, "手控球": 1 } }
+      ]
+    },
+    {
+      "id": "counter",
+      "name": "快速反击",
+      "tagline": "夺回球权后直击纵深",
+      "description": "强调启动速度、前插判断和少量触球完成推进。",
+      "demands": ["启动速度", "前插判断", "纵向推进"],
+      "fitSignals": [
+        { "label": "启动速度", "attributes": { "速度": 3, "爆发力": 3, "灵活": 1 } },
+        { "label": "前插判断", "attributes": { "无球跑动": 3, "预判": 3, "决断": 2, "镇定": 1 } },
+        { "label": "纵向推进", "attributes": { "盘带": 3, "传球": 2, "视野": 2, "技术": 1, "才华": 1 } }
+      ],
+      "goalkeeperSignals": [
+        { "label": "快速发动", "attributes": { "大脚开球": 2, "手抛球": 2, "视野": 1, "决断": 1 } },
+        { "label": "空间保护", "attributes": { "一对一": 2, "出击(倾向)": 1, "预判": 1, "速度": 1 } },
+        { "label": "反应扑救", "attributes": { "反应": 2, "灵活": 1, "集中": 1 } }
+      ]
+    },
+    {
+      "id": "wide",
+      "name": "边路进攻",
+      "tagline": "把宽度变成持续威胁",
+      "description": "强调边路推进、传中供给和无球套边跑动。",
+      "demands": ["边路推进", "传中供给", "持续套边"],
+      "fitSignals": [
+        { "label": "边路推进", "attributes": { "盘带": 3, "速度": 3, "爆发力": 2, "技术": 1 } },
+        { "label": "传中供给", "attributes": { "传中": 3, "视野": 2, "传球": 2, "决断": 1 } },
+        { "label": "持续套边", "attributes": { "无球跑动": 3, "耐力": 3, "团队合作": 1, "工作投入": 2 } }
+      ],
+      "goalkeeperSignals": [
+        { "label": "转移边路", "attributes": { "大脚开球": 2, "传球": 1, "视野": 1, "决断": 1 } },
+        { "label": "传中控制", "attributes": { "拦截传中": 2, "制空范围": 2, "指挥防守": 1 } },
+        { "label": "稳定处理", "attributes": { "手控球": 2, "集中": 1, "镇定": 1 } }
+      ]
+    }
+  ],
+  "positionMultipliers": {
+    "primary": 1.0,
+    "secondary": 0.95,
+    "other": 0.9,
+    "unregistered": 0.0
+  },
+  "challenge": {
+    "mode": "premier_league_38_match_season",
+    "season": true,
+    "seasonId": "premier_league_2025_26_fantasy",
+    "standings": true,
+    "points": true,
+    "clubTemplateCount": 20,
+    "aiClubCountAfterReplacement": 19,
+    "playerReplacement": {
+      "enabled": true,
+      "selection": "uniform_random",
+      "replacesOneClub": true,
+      "inheritsFixtureSlot": true
+    },
+    "schedule": {
+      "format": "double_round_robin",
+      "matchesPerTeam": 38,
+      "leagueMatchCount": 380,
+      "homeAndAwayAgainstEachOpponent": true
+    },
+    "pointsRule": {
+      "win": 3,
+      "draw": 1,
+      "loss": 0
+    },
+    "rankingTiebreakers": [
+      "points",
+      "goal_difference",
+      "goals_for",
+      "head_to_head_points",
+      "head_to_head_away_goals",
+      "stable_lot_key"
+    ],
+    "opponentConfigFile": "opponents.json",
+    "postSeasonOptions": ["restart_with_new_draft"],
+    "showPerfectSeasonTarget": false,
+    "saveCompletedSquad": false,
+    "autosaveActiveRun": true,
+    "crossMatchFormState": false
+  },
+  "matchControl": {
+    "mode": "fully_automatic",
+    "preSeasonEditable": [
+      "starting_xi",
+      "tactic"
+    ],
+    "formationChosenAtSetup": true,
+    "tacticLockedDuringSeason": true,
+    "lineupLockedDuringSeason": true,
+    "inMatchManualSubstitution": false,
+    "inMatchTacticSwitch": false
+  },
+  "chemistry": {
+    "enabled": true,
+    "calculation": "percentage",
+    "sameNationBonusPct": 1.0,
+    "sameLeagueBonusPct": 1.0,
+    "playerCapPct": 2.0,
+    "requiresAnotherStarter": true,
+    "appliesTo": "that_player_event_checks",
+    "matchStartChemistryLocked": true,
+    "substituteBonusPctAfterEntry": 0,
+    "display": {
+      "mode": "fc_lineup",
+      "starterOnly": true,
+      "showOnPlayerCard": true,
+      "showPlayerBonusPct": true,
+      "indicators": [
+        {
+          "id": "nation",
+          "label": "同国家",
+          "maxPoints": 1
+        },
+        {
+          "id": "league",
+          "label": "同联赛",
+          "maxPoints": 1
+        }
+      ],
+      "playerMaxPoints": 2,
+      "showSquadTotal": true,
+      "squadMaxPointsForXI": 22,
+      "liveUpdateOnLineupChange": true
+    }
+  },
+  "formState": {
+    "enabled": true,
+    "calculation": "percentage",
+    "assignedAtDraft": true,
+    "rerollEachMatch": false,
+    "displayMode": "text_only",
+    "tiers": [
+      {
+        "value": -3,
+        "probabilityPct": 8,
+        "abilityModifierPct": -9,
+        "labels": ["状态极差", "魂不守舍", "萎靡不振", "六神无主", "神思恍惚", "疲惫不堪", "完全迷失"]
+      },
+      {
+        "value": -2,
+        "probabilityPct": 13,
+        "abilityModifierPct": -6,
+        "labels": ["明显疲惫", "心不在焉", "精神萎靡", "注意涣散", "神情恍惚", "反应迟缓", "昏昏沉沉", "状态低迷"]
+      },
+      {
+        "value": -1,
+        "probabilityPct": 19,
+        "abilityModifierPct": -3,
+        "labels": ["状态一般", "略显疲惫", "有些慢热", "精神欠佳", "斗志稍弱", "反应稍慢", "偶尔走神"]
+      },
+      {
+        "value": 0,
+        "probabilityPct": 20,
+        "abilityModifierPct": 0,
+        "labels": ["状态正常", "一切如常", "情绪平稳", "神色如常", "表现平稳", "不温不火", "波澜不惊", "中规中矩"]
+      },
+      {
+        "value": 1,
+        "probabilityPct": 19,
+        "abilityModifierPct": 3,
+        "labels": ["精神饱满", "状态不错", "比较专注", "心情不错", "从容放松", "神情轻松", "准备就绪"]
+      },
+      {
+        "value": 2,
+        "probabilityPct": 13,
+        "abilityModifierPct": 6,
+        "labels": ["状态火热", "脚感正佳", "精神十足", "跑动积极", "斗志高涨", "信心满满", "神采奕奕"]
+      },
+      {
+        "value": 3,
+        "probabilityPct": 8,
+        "abilityModifierPct": 9,
+        "labels": ["状态爆棚", "火力全开", "如有神助", "脚感滚烫", "精神抖擞", "斗志昂扬", "势不可挡"]
+      }
+    ]
+  },
+  "tactics": [
+    {
+      "id": "balanced",
+      "name": "均衡",
+      "chanceFactors": { "own": 1.0, "opponent": 1.0 },
+      "eventRatePct": {},
+      "riskPct": {}
+    },
+    {
+      "id": "possession",
+      "name": "控球",
+      "chanceFactors": { "own": 1.02, "opponent": 0.97 },
+      "eventRatePct": {
+        "possession_build_up": 25,
+        "central_build_up": 15,
+        "counter_attack": -20
+      },
+      "riskPct": {
+        "fatigue": 5
+      }
+    },
+    {
+      "id": "counter",
+      "name": "防守反击",
+      "chanceFactors": { "own": 1.03, "opponent": 1.01 },
+      "eventRatePct": {
+        "possession_build_up": -20,
+        "counter_attack": 35,
+        "through_ball": 15
+      },
+      "riskPct": {}
+    },
+    {
+      "id": "wide",
+      "name": "边路进攻",
+      "chanceFactors": { "own": 1.04, "opponent": 1.02 },
+      "eventRatePct": {
+        "wide_attack": 35,
+        "cross": 30,
+        "central_build_up": -15
+      },
+      "riskPct": {}
+    },
+    {
+      "id": "high_press",
+      "name": "高位压迫",
+      "chanceFactors": { "own": 1.04, "opponent": 1.055 },
+      "eventRatePct": {
+        "high_turnover": 30,
+        "own_chance": 10
+      },
+      "riskPct": {
+        "fatigue": 20,
+        "foul": 15,
+        "opponent_counter": 15
+      }
+    },
+    {
+      "id": "park_bus",
+      "name": "摆大巴",
+      "chanceFactors": { "own": 0.9, "opponent": 0.9 },
+      "eventRatePct": {
+        "opponent_chance": -25,
+        "own_chance": -30,
+        "counter_attack": 20,
+        "possession_build_up": -25
+      },
+      "riskPct": {}
+    },
+    {
+      "id": "all_out_attack",
+      "name": "全力进攻",
+      "chanceFactors": { "own": 1.105, "opponent": 1.135 },
+      "eventRatePct": {
+        "own_chance": 35,
+        "opponent_chance": 30
+      },
+      "riskPct": {
+        "fatigue": 25,
+        "defensive_error": 15
+      }
+    }
+  ],
+  "duplicateVersions": {
+    "rule": "unique_by_player_id",
+    "current_and_legend_versions_may_coexist": true
+  },
+  "seasonStats": {
+    "outfield": [
+      "appearances",
+      "starts",
+      "minutes",
+      "goals",
+      "assists",
+      "average_rating"
+    ],
+    "goalkeeperAdditional": [
+      "goals_conceded",
+      "clean_sheets",
+      "saves"
+    ]
+  },
+  "dataFiles": {
+    "clientSafe": "data/client/players-public.json",
+    "serverOnly": "data/server/players-engine.json",
+    "frontendMustNotImportServerFile": true
+  }
+}

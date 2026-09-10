@@ -1,0 +1,26 @@
+# VALIDATION_REPORT v6
+
+- **version**: 6.0
+- **totalPlayers**: 1402
+- **legendTotal**: 156
+- **duplicateIds**: 0
+- **publicEngineIdSetEqual**: True
+- **publicFmAttributeLeaks**: 0
+- **publicRatingKeyErrors**: 0
+- **engineMissingFmAttributes**: 0
+- **ratingFormulaMismatches**: 0
+- **positionTierOverlaps**: 0
+- **positionDisplayMismatches**: 0
+- **positionDuplicatePlayersCleaned**: 230
+- **cleanupRowsChangedThisRun**: 0
+- **formulaCellsInWorkbook**: 0
+- **premierLeagueSeason**: 2026/27
+- **opponentTemplateCount**: 20
+- **opponentDuplicateIds**: 0
+- **opponentReferenceErrors**: 0
+- **opponentOverallErrors**: 0
+- **playerReplacesOneClub**: True
+- **matchesPerTeam**: 38
+- **leagueMatchCount**: 380
+- **frontendLoadsServerDataset**: False
+- **allChecksPassed**: True

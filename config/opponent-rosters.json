@@ -1,0 +1,6779 @@
+{
+  "version": "1.0",
+  "season": "2025/26",
+  "description": "AI球队比赛事件使用的2025/26英超20队真实球员名单，来自该赛季FPL数据。与玩家梦幻阵容允许重名。",
+  "sources": [
+    "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2025-26/players_raw.csv",
+    "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2025-26/teams.csv"
+  ],
+  "clubs": {
+    "arsenal": [
+      {
+        "name": "David Raya Martín",
+        "position": "GK",
+        "minutes": 3330,
+        "goals": 0,
+        "assists": 0,
+        "weight": 19
+      },
+      {
+        "name": "Declan Rice",
+        "position": "MID",
+        "minutes": 3093,
+        "goals": 4,
+        "assists": 9,
+        "weight": 47
+      },
+      {
+        "name": "Martín Zubimendi Ibáñez",
+        "position": "MID",
+        "minutes": 2991,
+        "goals": 5,
+        "assists": 1,
+        "weight": 34
+      },
+      {
+        "name": "Gabriel dos Santos Magalhães",
+        "position": "DEF",
+        "minutes": 2750,
+        "goals": 3,
+        "assists": 5,
+        "weight": 34
+      },
+      {
+        "name": "William Saliba",
+        "position": "DEF",
+        "minutes": 2614,
+        "goals": 1,
+        "assists": 0,
+        "weight": 18
+      },
+      {
+        "name": "Jurriën Timber",
+        "position": "DEF",
+        "minutes": 2452,
+        "goals": 3,
+        "assists": 6,
+        "weight": 35
+      },
+      {
+        "name": "Bukayo Saka",
+        "position": "MID",
+        "minutes": 2218,
+        "goals": 7,
+        "assists": 10,
+        "weight": 53
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "position": "FWD",
+        "minutes": 2217,
+        "goals": 14,
+        "assists": 1,
+        "weight": 56
+      },
+      {
+        "name": "Leandro Trossard",
+        "position": "MID",
+        "minutes": 1997,
+        "goals": 6,
+        "assists": 6,
+        "weight": 41
+      },
+      {
+        "name": "Eberechi Eze",
+        "position": "MID",
+        "minutes": 1885,
+        "goals": 7,
+        "assists": 3,
+        "weight": 37
+      },
+      {
+        "name": "Piero Hincapié",
+        "position": "DEF",
+        "minutes": 1787,
+        "goals": 1,
+        "assists": 2,
+        "weight": 17
+      },
+      {
+        "name": "Riccardo Calafiori",
+        "position": "DEF",
+        "minutes": 1697,
+        "goals": 1,
+        "assists": 2,
+        "weight": 16
+      },
+      {
+        "name": "Martin Ødegaard",
+        "position": "MID",
+        "minutes": 1363,
+        "goals": 1,
+        "assists": 7,
+        "weight": 25
+      },
+      {
+        "name": "Noni Madueke",
+        "position": "MID",
+        "minutes": 1205,
+        "goals": 3,
+        "assists": 1,
+        "weight": 18
+      },
+      {
+        "name": "Gabriel Martinelli Silva",
+        "position": "MID",
+        "minutes": 1065,
+        "goals": 1,
+        "assists": 5,
+        "weight": 19
+      },
+      {
+        "name": "Mikel Merino Zazón",
+        "position": "MID",
+        "minutes": 1024,
+        "goals": 4,
+        "assists": 3,
+        "weight": 24
+      },
+      {
+        "name": "Cristhian Mosquera",
+        "position": "DEF",
+        "minutes": 986,
+        "goals": 0,
+        "assists": 0,
+        "weight": 5
+      },
+      {
+        "name": "Benjamin White",
+        "position": "DEF",
+        "minutes": 699,
+        "goals": 0,
+        "assists": 1,
+        "weight": 6
+      },
+      {
+        "name": "Myles Lewis-Skelly",
+        "position": "DEF",
+        "minutes": 697,
+        "goals": 0,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Kai Havertz",
+        "position": "FWD",
+        "minutes": 577,
+        "goals": 2,
+        "assists": 3,
+        "weight": 15
+      },
+      {
+        "name": "Gabriel Fernando de Jesus",
+        "position": "FWD",
+        "minutes": 418,
+        "goals": 3,
+        "assists": 0,
+        "weight": 11
+      },
+      {
+        "name": "Ethan Nwaneri",
+        "position": "MID",
+        "minutes": 165,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Max Dowman",
+        "position": "MID",
+        "minutes": 152,
+        "goals": 1,
+        "assists": 1,
+        "weight": 6
+      },
+      {
+        "name": "Christian Nørgaard",
+        "position": "MID",
+        "minutes": 101,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kepa Arrizabalaga Revuelta",
+        "position": "GK",
+        "minutes": 90,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Albert Sambi Lokonga",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Andre Harriman-Annous",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Brayden Clarke",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Fábio Ferreira Vieira",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ismeal Kabia",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jakub Kiwior",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Josh Nichols",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Karl Hein",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Maldini Kacurri",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Marli Salmon",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tommy Setford",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "aston_villa": [
+      {
+        "name": "Morgan Rogers",
+        "position": "MID",
+        "minutes": 3280,
+        "goals": 10,
+        "assists": 8,
+        "weight": 64
+      },
+      {
+        "name": "Ezri Konsa Ngoyo",
+        "position": "DEF",
+        "minutes": 3035,
+        "goals": 0,
+        "assists": 1,
+        "weight": 19
+      },
+      {
+        "name": "Matty Cash",
+        "position": "DEF",
+        "minutes": 3016,
+        "goals": 3,
+        "assists": 3,
+        "weight": 32
+      },
+      {
+        "name": "Emiliano Martínez Romero",
+        "position": "GK",
+        "minutes": 2835,
+        "goals": 0,
+        "assists": 1,
+        "weight": 18
+      },
+      {
+        "name": "Ollie Watkins",
+        "position": "FWD",
+        "minutes": 2833,
+        "goals": 16,
+        "assists": 4,
+        "weight": 72
+      },
+      {
+        "name": "John McGinn",
+        "position": "MID",
+        "minutes": 2136,
+        "goals": 5,
+        "assists": 4,
+        "weight": 35
+      },
+      {
+        "name": "Youri Tielemans",
+        "position": "MID",
+        "minutes": 1857,
+        "goals": 0,
+        "assists": 4,
+        "weight": 18
+      },
+      {
+        "name": "Lucas Digne",
+        "position": "DEF",
+        "minutes": 1842,
+        "goals": 0,
+        "assists": 7,
+        "weight": 24
+      },
+      {
+        "name": "Amadou Onana",
+        "position": "MID",
+        "minutes": 1755,
+        "goals": 2,
+        "assists": 0,
+        "weight": 16
+      },
+      {
+        "name": "Emiliano Buendía Stati",
+        "position": "MID",
+        "minutes": 1753,
+        "goals": 6,
+        "assists": 2,
+        "weight": 32
+      },
+      {
+        "name": "Pau Torres",
+        "position": "DEF",
+        "minutes": 1673,
+        "goals": 0,
+        "assists": 2,
+        "weight": 13
+      },
+      {
+        "name": "Ian Maatsen",
+        "position": "DEF",
+        "minutes": 1590,
+        "goals": 0,
+        "assists": 1,
+        "weight": 11
+      },
+      {
+        "name": "Boubacar Kamara",
+        "position": "MID",
+        "minutes": 1410,
+        "goals": 1,
+        "assists": 3,
+        "weight": 17
+      },
+      {
+        "name": "Tyrone Mings",
+        "position": "DEF",
+        "minutes": 1322,
+        "goals": 0,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Lamare Bogarde",
+        "position": "DEF",
+        "minutes": 1042,
+        "goals": 0,
+        "assists": 0,
+        "weight": 6
+      },
+      {
+        "name": "Victor Lindelöf",
+        "position": "DEF",
+        "minutes": 942,
+        "goals": 0,
+        "assists": 1,
+        "weight": 7
+      },
+      {
+        "name": "Douglas Luiz Soares de Paulo",
+        "position": "MID",
+        "minutes": 913,
+        "goals": 1,
+        "assists": 1,
+        "weight": 10
+      },
+      {
+        "name": "Jadon Sancho",
+        "position": "MID",
+        "minutes": 863,
+        "goals": 0,
+        "assists": 2,
+        "weight": 9
+      },
+      {
+        "name": "Ross Barkley",
+        "position": "MID",
+        "minutes": 844,
+        "goals": 3,
+        "assists": 2,
+        "weight": 18
+      },
+      {
+        "name": "Donyell Malen",
+        "position": "MID",
+        "minutes": 640,
+        "goals": 4,
+        "assists": 2,
+        "weight": 20
+      },
+      {
+        "name": "Marco Bizot",
+        "position": "GK",
+        "minutes": 585,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Leon Bailey",
+        "position": "MID",
+        "minutes": 450,
+        "goals": 0,
+        "assists": 2,
+        "weight": 7
+      },
+      {
+        "name": "Tammy Abraham",
+        "position": "FWD",
+        "minutes": 278,
+        "goals": 2,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Harvey Elliott",
+        "position": "MID",
+        "minutes": 110,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Andrés García",
+        "position": "DEF",
+        "minutes": 83,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Alysson Edward Franco da Rocha dos Santos",
+        "position": "MID",
+        "minutes": 47,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "George Hemmings",
+        "position": "MID",
+        "minutes": 25,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Bradley Burrowes",
+        "position": "MID",
+        "minutes": 16,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jamaldeen Jimoh-Aloba",
+        "position": "MID",
+        "minutes": 8,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Álex Moreno Lopera",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ben Broggio",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Enzo Barrenechea",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Filip Marschall",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "James Wright",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joe Gauci",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kadan Young",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Leander Dendoncker",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Leon Routh",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Lewis Dobbin",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Lino da Cruz Sousa",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ronnie Hollingshead",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Sam Proctor",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Samuel Iling-Junior",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "TJ Carroll",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Travis Patterson",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Triston Rowe",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Yasin Özcan",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Zépiqueno Redmond",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "bournemouth": [
+      {
+        "name": "Đorđe Petrović",
+        "position": "GK",
+        "minutes": 3420,
+        "goals": 0,
+        "assists": 0,
+        "weight": 19
+      },
+      {
+        "name": "Adrien Truffert",
+        "position": "DEF",
+        "minutes": 3378,
+        "goals": 1,
+        "assists": 6,
+        "weight": 34
+      },
+      {
+        "name": "Marcos Senesi Barón",
+        "position": "DEF",
+        "minutes": 3288,
+        "goals": 0,
+        "assists": 6,
+        "weight": 30
+      },
+      {
+        "name": "Alex Scott",
+        "position": "MID",
+        "minutes": 2848,
+        "goals": 3,
+        "assists": 2,
+        "weight": 29
+      },
+      {
+        "name": "Francisco Evanilson de Lima Barbosa",
+        "position": "FWD",
+        "minutes": 2741,
+        "goals": 6,
+        "assists": 7,
+        "weight": 47
+      },
+      {
+        "name": "Marcus Tavernier",
+        "position": "MID",
+        "minutes": 2732,
+        "goals": 7,
+        "assists": 4,
+        "weight": 44
+      },
+      {
+        "name": "Álex Jiménez Sánchez",
+        "position": "DEF",
+        "minutes": 2315,
+        "goals": 1,
+        "assists": 2,
+        "weight": 20
+      },
+      {
+        "name": "James Hill",
+        "position": "DEF",
+        "minutes": 2102,
+        "goals": 0,
+        "assists": 3,
+        "weight": 18
+      },
+      {
+        "name": "Tyler Adams",
+        "position": "MID",
+        "minutes": 1769,
+        "goals": 2,
+        "assists": 2,
+        "weight": 20
+      },
+      {
+        "name": "Junior Kroupi",
+        "position": "FWD",
+        "minutes": 1663,
+        "goals": 13,
+        "assists": 0,
+        "weight": 48
+      },
+      {
+        "name": "Bafodé Diakité",
+        "position": "DEF",
+        "minutes": 1275,
+        "goals": 0,
+        "assists": 0,
+        "weight": 7
+      },
+      {
+        "name": "David Brooks",
+        "position": "MID",
+        "minutes": 1188,
+        "goals": 1,
+        "assists": 3,
+        "weight": 16
+      },
+      {
+        "name": "Rayan Vitor Simplício Rocha",
+        "position": "MID",
+        "minutes": 1110,
+        "goals": 5,
+        "assists": 2,
+        "weight": 25
+      },
+      {
+        "name": "Amine Adli",
+        "position": "MID",
+        "minutes": 1074,
+        "goals": 3,
+        "assists": 2,
+        "weight": 19
+      },
+      {
+        "name": "Adam Smith",
+        "position": "DEF",
+        "minutes": 1073,
+        "goals": 0,
+        "assists": 2,
+        "weight": 10
+      },
+      {
+        "name": "Ryan Christie",
+        "position": "MID",
+        "minutes": 978,
+        "goals": 2,
+        "assists": 1,
+        "weight": 13
+      },
+      {
+        "name": "Justin Kluivert",
+        "position": "MID",
+        "minutes": 945,
+        "goals": 2,
+        "assists": 0,
+        "weight": 11
+      },
+      {
+        "name": "Lewis Cook",
+        "position": "MID",
+        "minutes": 872,
+        "goals": 0,
+        "assists": 1,
+        "weight": 7
+      },
+      {
+        "name": "Veljko Milosavljevic",
+        "position": "DEF",
+        "minutes": 367,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Enes Ünal",
+        "position": "FWD",
+        "minutes": 214,
+        "goals": 1,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Alex Tóth",
+        "position": "MID",
+        "minutes": 135,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ben Gannon-Doak",
+        "position": "MID",
+        "minutes": 105,
+        "goals": 0,
+        "assists": 1,
+        "weight": 3
+      },
+      {
+        "name": "Julio Soler Barreto",
+        "position": "DEF",
+        "minutes": 34,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Hamed Traorè",
+        "position": "MID",
+        "minutes": 16,
+        "goals": 0,
+        "assists": 1,
+        "weight": 2
+      },
+      {
+        "name": "Ben Winterburn",
+        "position": "MID",
+        "minutes": 6,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Alex Paulsen",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Callan McKenna",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Charlie Stevens",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Chris Mepham",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Christos Mandas",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Daniel Adu-Adjei",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Dominic Sadi",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Fraser Forster",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Illia Zabarnyi",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Julián Araujo Zúñiga",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luis Sinisterra Lucumí",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Malcom DaCosta",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Matai Akinmboni",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Norberto Murara Neto",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Owen Bevan",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Philip Billing",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Remy Rees-Dottin",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Romain Faivre",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Will Dennis",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Zain Silcott-Duberry",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "brentford": [
+      {
+        "name": "Caoimhín Kelleher",
+        "position": "GK",
+        "minutes": 3330,
+        "goals": 0,
+        "assists": 0,
+        "weight": 19
+      },
+      {
+        "name": "Igor Thiago Nascimento Rodrigues",
+        "position": "FWD",
+        "minutes": 3282,
+        "goals": 22,
+        "assists": 1,
+        "weight": 86
+      },
+      {
+        "name": "Michael Kayode",
+        "position": "DEF",
+        "minutes": 3258,
+        "goals": 1,
+        "assists": 2,
+        "weight": 25
+      },
+      {
+        "name": "Nathan Collins",
+        "position": "DEF",
+        "minutes": 2971,
+        "goals": 1,
+        "assists": 2,
+        "weight": 24
+      },
+      {
+        "name": "Sepp van den Berg",
+        "position": "DEF",
+        "minutes": 2761,
+        "goals": 0,
+        "assists": 3,
+        "weight": 21
+      },
+      {
+        "name": "Kevin Schade",
+        "position": "MID",
+        "minutes": 2744,
+        "goals": 8,
+        "assists": 5,
+        "weight": 49
+      },
+      {
+        "name": "Yehor Yarmoliuk",
+        "position": "MID",
+        "minutes": 2652,
+        "goals": 1,
+        "assists": 3,
+        "weight": 24
+      },
+      {
+        "name": "Dango Ouattara",
+        "position": "MID",
+        "minutes": 2271,
+        "goals": 7,
+        "assists": 8,
+        "weight": 50
+      },
+      {
+        "name": "Mathias Jensen",
+        "position": "MID",
+        "minutes": 2239,
+        "goals": 3,
+        "assists": 2,
+        "weight": 25
+      },
+      {
+        "name": "Mikkel Damsgaard",
+        "position": "MID",
+        "minutes": 2046,
+        "goals": 4,
+        "assists": 4,
+        "weight": 31
+      },
+      {
+        "name": "Keane Lewis-Potter",
+        "position": "DEF",
+        "minutes": 1960,
+        "goals": 3,
+        "assists": 4,
+        "weight": 28
+      },
+      {
+        "name": "Jordan Henderson",
+        "position": "MID",
+        "minutes": 1911,
+        "goals": 1,
+        "assists": 3,
+        "weight": 20
+      },
+      {
+        "name": "Kristoffer Ajer",
+        "position": "DEF",
+        "minutes": 1805,
+        "goals": 0,
+        "assists": 2,
+        "weight": 14
+      },
+      {
+        "name": "Vitaly Janelt",
+        "position": "MID",
+        "minutes": 1434,
+        "goals": 1,
+        "assists": 4,
+        "weight": 19
+      },
+      {
+        "name": "Rico Henry",
+        "position": "DEF",
+        "minutes": 1322,
+        "goals": 0,
+        "assists": 2,
+        "weight": 11
+      },
+      {
+        "name": "Aaron Hickey",
+        "position": "DEF",
+        "minutes": 679,
+        "goals": 0,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Ethan Pinnock",
+        "position": "DEF",
+        "minutes": 318,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Reiss Nelson",
+        "position": "MID",
+        "minutes": 118,
+        "goals": 0,
+        "assists": 1,
+        "weight": 3
+      },
+      {
+        "name": "Fábio Freitas Gouveia Carvalho",
+        "position": "MID",
+        "minutes": 100,
+        "goals": 1,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Hákon Rafn Valdimarsson",
+        "position": "GK",
+        "minutes": 90,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Frank Onyeka",
+        "position": "MID",
+        "minutes": 88,
+        "goals": 0,
+        "assists": 2,
+        "weight": 4
+      },
+      {
+        "name": "Antoni Milambo",
+        "position": "MID",
+        "minutes": 45,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Romelle Donovan",
+        "position": "MID",
+        "minutes": 38,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Josh Dasilva",
+        "position": "MID",
+        "minutes": 2,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kaye Furo",
+        "position": "FWD",
+        "minutes": 1,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Myles Peart-Harris",
+        "position": "MID",
+        "minutes": 1,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Benjamin Arthur",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Benjamin Fredrick",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Conor McManus",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ellery Balcombe",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Gustavo Nunes Fernandes Gomes",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Iwan Morgan",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jayden Meghoma",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joshua Stephenson",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Julian Eyestone",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kim Ji-soo",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luka Bentt",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mads Roerslev Rasmussen",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Matthew Cox",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ollie Shield",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Paris Maghoma",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Riley Owen",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ryan Trevitt",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Yunus Emre Konak",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "brighton": [
+      {
+        "name": "Bart Verbruggen",
+        "position": "GK",
+        "minutes": 3420,
+        "goals": 0,
+        "assists": 0,
+        "weight": 19
+      },
+      {
+        "name": "Jan Paul van Hecke",
+        "position": "DEF",
+        "minutes": 3210,
+        "goals": 3,
+        "assists": 3,
+        "weight": 33
+      },
+      {
+        "name": "Ferdi Kadıoğlu",
+        "position": "DEF",
+        "minutes": 3130,
+        "goals": 1,
+        "assists": 2,
+        "weight": 24
+      },
+      {
+        "name": "Lewis Dunk",
+        "position": "DEF",
+        "minutes": 2837,
+        "goals": 1,
+        "assists": 1,
+        "weight": 21
+      },
+      {
+        "name": "Yankuba Minteh",
+        "position": "MID",
+        "minutes": 2389,
+        "goals": 3,
+        "assists": 8,
+        "weight": 38
+      },
+      {
+        "name": "Danny Welbeck",
+        "position": "FWD",
+        "minutes": 2249,
+        "goals": 13,
+        "assists": 1,
+        "weight": 53
+      },
+      {
+        "name": "Diego Gómez Amarilla",
+        "position": "MID",
+        "minutes": 2117,
+        "goals": 5,
+        "assists": 1,
+        "weight": 29
+      },
+      {
+        "name": "Yasin Ayari",
+        "position": "MID",
+        "minutes": 1921,
+        "goals": 3,
+        "assists": 4,
+        "weight": 28
+      },
+      {
+        "name": "Mats Wieffer",
+        "position": "MID",
+        "minutes": 1901,
+        "goals": 2,
+        "assists": 4,
+        "weight": 25
+      },
+      {
+        "name": "Georginio Rutter",
+        "position": "MID",
+        "minutes": 1776,
+        "goals": 3,
+        "assists": 5,
+        "weight": 29
+      },
+      {
+        "name": "Jack Hinshelwood",
+        "position": "MID",
+        "minutes": 1736,
+        "goals": 4,
+        "assists": 5,
+        "weight": 32
+      },
+      {
+        "name": "Mitoma Kaoru",
+        "position": "MID",
+        "minutes": 1714,
+        "goals": 3,
+        "assists": 1,
+        "weight": 21
+      },
+      {
+        "name": "Carlos Baleba",
+        "position": "MID",
+        "minutes": 1646,
+        "goals": 0,
+        "assists": 0,
+        "weight": 9
+      },
+      {
+        "name": "Pascal Groß",
+        "position": "MID",
+        "minutes": 1636,
+        "goals": 1,
+        "assists": 6,
+        "weight": 24
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "position": "DEF",
+        "minutes": 1404,
+        "goals": 2,
+        "assists": 3,
+        "weight": 20
+      },
+      {
+        "name": "Joël Veltman",
+        "position": "DEF",
+        "minutes": 1047,
+        "goals": 1,
+        "assists": 0,
+        "weight": 9
+      },
+      {
+        "name": "Olivier Boscagli",
+        "position": "DEF",
+        "minutes": 799,
+        "goals": 0,
+        "assists": 1,
+        "weight": 6
+      },
+      {
+        "name": "James Milner",
+        "position": "MID",
+        "minutes": 772,
+        "goals": 1,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Brajan Gruda",
+        "position": "MID",
+        "minutes": 708,
+        "goals": 1,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Charalampos Kostoulas",
+        "position": "FWD",
+        "minutes": 351,
+        "goals": 2,
+        "assists": 1,
+        "weight": 10
+      },
+      {
+        "name": "Matt O'Riley",
+        "position": "MID",
+        "minutes": 202,
+        "goals": 1,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Diego Coppola",
+        "position": "DEF",
+        "minutes": 193,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Stefanos Tzimas",
+        "position": "FWD",
+        "minutes": 132,
+        "goals": 1,
+        "assists": 1,
+        "weight": 6
+      },
+      {
+        "name": "Igor Julio dos Santos de Paulo",
+        "position": "DEF",
+        "minutes": 103,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Harry Howell",
+        "position": "MID",
+        "minutes": 92,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tom Watson",
+        "position": "MID",
+        "minutes": 57,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Solly March",
+        "position": "MID",
+        "minutes": 38,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joe Knight",
+        "position": "MID",
+        "minutes": 1,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Nehemiah Oriola",
+        "position": "MID",
+        "minutes": 1,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Abdallah Sima",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Adam Webster",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Adrian Mazilu",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Andrew Moran",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Carl Rushworth",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Charlie Tasker",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Eiran Cashin",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Evan Ferguson",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Freddie Simmonds",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jacob Slater",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jason Steele",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jeremy Sarmiento Morante",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Julio Enciso Espínola",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kjell Scherpen",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Malick Yalcouyé",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Pervis Estupiñán Tenorio",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tariq Lamptey",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tom McGill",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "chelsea": [
+      {
+        "name": "Enzo Fernández",
+        "position": "MID",
+        "minutes": 3114,
+        "goals": 10,
+        "assists": 5,
+        "weight": 57
+      },
+      {
+        "name": "Robert Lynch Sánchez",
+        "position": "GK",
+        "minutes": 3040,
+        "goals": 0,
+        "assists": 1,
+        "weight": 19
+      },
+      {
+        "name": "Moisés Caicedo Corozo",
+        "position": "MID",
+        "minutes": 2796,
+        "goals": 3,
+        "assists": 1,
+        "weight": 27
+      },
+      {
+        "name": "Trevoh Chalobah",
+        "position": "DEF",
+        "minutes": 2780,
+        "goals": 3,
+        "assists": 1,
+        "weight": 26
+      },
+      {
+        "name": "Marc Cucurella Saseta",
+        "position": "DEF",
+        "minutes": 2706,
+        "goals": 1,
+        "assists": 4,
+        "weight": 26
+      },
+      {
+        "name": "João Pedro Junqueira de Jesus",
+        "position": "FWD",
+        "minutes": 2658,
+        "goals": 15,
+        "assists": 9,
+        "weight": 78
+      },
+      {
+        "name": "Pedro Lomba Neto",
+        "position": "MID",
+        "minutes": 2629,
+        "goals": 5,
+        "assists": 7,
+        "weight": 44
+      },
+      {
+        "name": "Malo Gusto",
+        "position": "DEF",
+        "minutes": 2255,
+        "goals": 2,
+        "assists": 3,
+        "weight": 25
+      },
+      {
+        "name": "Reece James",
+        "position": "DEF",
+        "minutes": 1957,
+        "goals": 2,
+        "assists": 6,
+        "weight": 29
+      },
+      {
+        "name": "Cole Palmer",
+        "position": "MID",
+        "minutes": 1954,
+        "goals": 10,
+        "assists": 2,
+        "weight": 45
+      },
+      {
+        "name": "Wesley Fofana",
+        "position": "DEF",
+        "minutes": 1718,
+        "goals": 0,
+        "assists": 2,
+        "weight": 14
+      },
+      {
+        "name": "Alejandro Garnacho Ferreyra",
+        "position": "MID",
+        "minutes": 1261,
+        "goals": 1,
+        "assists": 4,
+        "weight": 18
+      },
+      {
+        "name": "Andrey Nascimento dos Santos",
+        "position": "MID",
+        "minutes": 1247,
+        "goals": 1,
+        "assists": 0,
+        "weight": 10
+      },
+      {
+        "name": "Jorrel Hato",
+        "position": "DEF",
+        "minutes": 1139,
+        "goals": 0,
+        "assists": 0,
+        "weight": 6
+      },
+      {
+        "name": "Liam Delap",
+        "position": "FWD",
+        "minutes": 1092,
+        "goals": 1,
+        "assists": 2,
+        "weight": 13
+      },
+      {
+        "name": "Estêvão Almeida de Oliveira Gonçalves",
+        "position": "MID",
+        "minutes": 839,
+        "goals": 2,
+        "assists": 5,
+        "weight": 21
+      },
+      {
+        "name": "Tosin Adarabioyo",
+        "position": "DEF",
+        "minutes": 788,
+        "goals": 0,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Josh Acheampong",
+        "position": "DEF",
+        "minutes": 657,
+        "goals": 1,
+        "assists": 0,
+        "weight": 7
+      },
+      {
+        "name": "Jamie Bynoe-Gittens",
+        "position": "MID",
+        "minutes": 486,
+        "goals": 0,
+        "assists": 2,
+        "weight": 7
+      },
+      {
+        "name": "Benoît Badiashile Mukinayi",
+        "position": "DEF",
+        "minutes": 470,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Filip Jörgensen",
+        "position": "GK",
+        "minutes": 378,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Roméo Lavia",
+        "position": "MID",
+        "minutes": 374,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Marc Guiu Paz",
+        "position": "FWD",
+        "minutes": 265,
+        "goals": 0,
+        "assists": 1,
+        "weight": 3
+      },
+      {
+        "name": "Levi Samuels Colwill",
+        "position": "DEF",
+        "minutes": 225,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mamadou Sarr",
+        "position": "DEF",
+        "minutes": 100,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jesse Derry",
+        "position": "MID",
+        "minutes": 45,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Dário Luís Essugo",
+        "position": "MID",
+        "minutes": 26,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Shumaira Mheuka",
+        "position": "FWD",
+        "minutes": 1,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Aarón Anselmino",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Christopher Nkunku",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Gabriel Słonina",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kendry Páez Andrade",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Landon Emenalo",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mathis Eboué",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Max Merrick",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mike Penders",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mykhailo Mudryk",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Nicolas Jackson",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ryan Kavuma-McQueen",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Teddy Sharman-Lowe",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "burnley": [
+      {
+        "name": "Martin Dúbravka",
+        "position": "GK",
+        "minutes": 3150,
+        "goals": 0,
+        "assists": 0,
+        "weight": 18
+      },
+      {
+        "name": "Kyle Walker",
+        "position": "DEF",
+        "minutes": 3095,
+        "goals": 0,
+        "assists": 2,
+        "weight": 21
+      },
+      {
+        "name": "Maxime Estève",
+        "position": "DEF",
+        "minutes": 2933,
+        "goals": 0,
+        "assists": 0,
+        "weight": 16
+      },
+      {
+        "name": "Jaidon Anthony",
+        "position": "MID",
+        "minutes": 2717,
+        "goals": 8,
+        "assists": 4,
+        "weight": 47
+      },
+      {
+        "name": "Lesley Ugochukwu",
+        "position": "MID",
+        "minutes": 2330,
+        "goals": 3,
+        "assists": 3,
+        "weight": 28
+      },
+      {
+        "name": "Florentino Ibrain Morris Luís",
+        "position": "MID",
+        "minutes": 2100,
+        "goals": 0,
+        "assists": 2,
+        "weight": 16
+      },
+      {
+        "name": "Quilindschy Hartman",
+        "position": "DEF",
+        "minutes": 1825,
+        "goals": 0,
+        "assists": 6,
+        "weight": 22
+      },
+      {
+        "name": "Zian Flemming",
+        "position": "FWD",
+        "minutes": 1764,
+        "goals": 11,
+        "assists": 0,
+        "weight": 43
+      },
+      {
+        "name": "Josh Laurent",
+        "position": "MID",
+        "minutes": 1752,
+        "goals": 1,
+        "assists": 0,
+        "weight": 13
+      },
+      {
+        "name": "Bashir Humphreys",
+        "position": "DEF",
+        "minutes": 1574,
+        "goals": 0,
+        "assists": 2,
+        "weight": 13
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "position": "DEF",
+        "minutes": 1539,
+        "goals": 0,
+        "assists": 0,
+        "weight": 9
+      },
+      {
+        "name": "Josh Cullen",
+        "position": "MID",
+        "minutes": 1513,
+        "goals": 2,
+        "assists": 2,
+        "weight": 18
+      },
+      {
+        "name": "Lucas Pires Silva",
+        "position": "DEF",
+        "minutes": 1405,
+        "goals": 0,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Lyle Foster",
+        "position": "FWD",
+        "minutes": 1361,
+        "goals": 3,
+        "assists": 2,
+        "weight": 21
+      },
+      {
+        "name": "Loum Tchaouna",
+        "position": "MID",
+        "minutes": 1259,
+        "goals": 2,
+        "assists": 2,
+        "weight": 17
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "position": "MID",
+        "minutes": 1219,
+        "goals": 1,
+        "assists": 5,
+        "weight": 20
+      },
+      {
+        "name": "Axel Tuanzebe",
+        "position": "DEF",
+        "minutes": 1201,
+        "goals": 1,
+        "assists": 0,
+        "weight": 10
+      },
+      {
+        "name": "James Ward-Prowse",
+        "position": "MID",
+        "minutes": 1092,
+        "goals": 0,
+        "assists": 1,
+        "weight": 8
+      },
+      {
+        "name": "Marcus Edwards",
+        "position": "MID",
+        "minutes": 1058,
+        "goals": 1,
+        "assists": 3,
+        "weight": 15
+      },
+      {
+        "name": "Jacob Bruun Larsen",
+        "position": "MID",
+        "minutes": 1014,
+        "goals": 0,
+        "assists": 1,
+        "weight": 8
+      },
+      {
+        "name": "Armando Broja",
+        "position": "FWD",
+        "minutes": 843,
+        "goals": 1,
+        "assists": 1,
+        "weight": 10
+      },
+      {
+        "name": "Joe Worrall",
+        "position": "DEF",
+        "minutes": 496,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Max Weiß",
+        "position": "GK",
+        "minutes": 270,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Oliver Sonne",
+        "position": "DEF",
+        "minutes": 164,
+        "goals": 1,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Zeki Amdouni",
+        "position": "FWD",
+        "minutes": 69,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ashley Barnes",
+        "position": "FWD",
+        "minutes": 40,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mike Trésor Ndayishimiye",
+        "position": "MID",
+        "minutes": 37,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jaydon Banel",
+        "position": "MID",
+        "minutes": 9,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Aaron Ramsey",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Connor Roberts",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Darko Churlinov",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Enock Agyei",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Etienne Green",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "George Brierley",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Hannes Delcroix",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jordan Beyer",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kian McMahon-Brown",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luca Koleosho",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Manuel Benson Hedilazio",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Michael Obafemi",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Oliver Pimlott",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Oluwaseun Adewumi",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Owen Dodgson",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Shurandy Sambo",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Václav Hladký",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "crystal_palace": [
+      {
+        "name": "Dean Henderson",
+        "position": "GK",
+        "minutes": 3330,
+        "goals": 0,
+        "assists": 0,
+        "weight": 19
+      },
+      {
+        "name": "Tyrick Mitchell",
+        "position": "DEF",
+        "minutes": 3253,
+        "goals": 1,
+        "assists": 3,
+        "weight": 27
+      },
+      {
+        "name": "Maxence Lacroix",
+        "position": "DEF",
+        "minutes": 3085,
+        "goals": 1,
+        "assists": 2,
+        "weight": 24
+      },
+      {
+        "name": "Chris Richards",
+        "position": "DEF",
+        "minutes": 2825,
+        "goals": 1,
+        "assists": 0,
+        "weight": 19
+      },
+      {
+        "name": "Adam Wharton",
+        "position": "MID",
+        "minutes": 2552,
+        "goals": 1,
+        "assists": 6,
+        "weight": 29
+      },
+      {
+        "name": "Daniel Muñoz Mejía",
+        "position": "DEF",
+        "minutes": 2400,
+        "goals": 4,
+        "assists": 4,
+        "weight": 33
+      },
+      {
+        "name": "Jørgen Strand Larsen",
+        "position": "FWD",
+        "minutes": 2301,
+        "goals": 4,
+        "assists": 1,
+        "weight": 27
+      },
+      {
+        "name": "Jean-Philippe Mateta",
+        "position": "FWD",
+        "minutes": 2210,
+        "goals": 12,
+        "assists": 0,
+        "weight": 48
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "position": "MID",
+        "minutes": 2173,
+        "goals": 9,
+        "assists": 2,
+        "weight": 43
+      },
+      {
+        "name": "Yéremy Pino Santos",
+        "position": "MID",
+        "minutes": 2074,
+        "goals": 2,
+        "assists": 2,
+        "weight": 22
+      },
+      {
+        "name": "Daichi Kamada",
+        "position": "MID",
+        "minutes": 1899,
+        "goals": 0,
+        "assists": 2,
+        "weight": 15
+      },
+      {
+        "name": "Jefferson Lerma Solís",
+        "position": "MID",
+        "minutes": 1722,
+        "goals": 0,
+        "assists": 5,
+        "weight": 20
+      },
+      {
+        "name": "Brennan Johnson",
+        "position": "MID",
+        "minutes": 1710,
+        "goals": 2,
+        "assists": 1,
+        "weight": 18
+      },
+      {
+        "name": "Will Hughes",
+        "position": "MID",
+        "minutes": 1560,
+        "goals": 0,
+        "assists": 1,
+        "weight": 11
+      },
+      {
+        "name": "Jaydee Canvot",
+        "position": "DEF",
+        "minutes": 1331,
+        "goals": 0,
+        "assists": 0,
+        "weight": 7
+      },
+      {
+        "name": "Evann Guessand",
+        "position": "MID",
+        "minutes": 909,
+        "goals": 1,
+        "assists": 3,
+        "weight": 14
+      },
+      {
+        "name": "Justin Devenny",
+        "position": "MID",
+        "minutes": 785,
+        "goals": 1,
+        "assists": 0,
+        "weight": 7
+      },
+      {
+        "name": "Nathaniel Clyne",
+        "position": "DEF",
+        "minutes": 592,
+        "goals": 0,
+        "assists": 1,
+        "weight": 5
+      },
+      {
+        "name": "Chadi Riad Dnanou",
+        "position": "DEF",
+        "minutes": 550,
+        "goals": 0,
+        "assists": 1,
+        "weight": 5
+      },
+      {
+        "name": "Eddie Nketiah",
+        "position": "FWD",
+        "minutes": 414,
+        "goals": 2,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Christantus Uche",
+        "position": "FWD",
+        "minutes": 159,
+        "goals": 0,
+        "assists": 1,
+        "weight": 3
+      },
+      {
+        "name": "Borna Sosa",
+        "position": "DEF",
+        "minutes": 99,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Rio Cardines",
+        "position": "MID",
+        "minutes": 90,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Walter Benítez",
+        "position": "GK",
+        "minutes": 90,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Romain Esse",
+        "position": "MID",
+        "minutes": 40,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joél Drakes-Thomas",
+        "position": "MID",
+        "minutes": 7,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kaden Rodney",
+        "position": "MID",
+        "minutes": 3,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Odsonne Édouard",
+        "position": "FWD",
+        "minutes": 2,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Asher Agbinone",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ben Casey",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Caleb Kporha",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Cheick Doucouré",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Danny Imray",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "David Ozoh",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Dean Benamar",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Franco Umeh-Chibueze",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "George King",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jesurun Rak-Sakyi",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Malcolm Ebiowei",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Matheus França de Oliveira",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Naouirou Ahamada",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Remi Matthews",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Rob Holding",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Zach Marsh",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "everton": [
+      {
+        "name": "Jordan Pickford",
+        "position": "GK",
+        "minutes": 3420,
+        "goals": 0,
+        "assists": 0,
+        "weight": 19
+      },
+      {
+        "name": "James Garner",
+        "position": "MID",
+        "minutes": 3413,
+        "goals": 2,
+        "assists": 7,
+        "weight": 39
+      },
+      {
+        "name": "James Tarkowski",
+        "position": "DEF",
+        "minutes": 3330,
+        "goals": 2,
+        "assists": 3,
+        "weight": 31
+      },
+      {
+        "name": "Jake O'Brien",
+        "position": "DEF",
+        "minutes": 3118,
+        "goals": 1,
+        "assists": 3,
+        "weight": 26
+      },
+      {
+        "name": "Vitalii Mykolenko",
+        "position": "DEF",
+        "minutes": 2959,
+        "goals": 0,
+        "assists": 1,
+        "weight": 18
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "position": "MID",
+        "minutes": 2781,
+        "goals": 6,
+        "assists": 3,
+        "weight": 39
+      },
+      {
+        "name": "Kiernan Dewsbury-Hall",
+        "position": "MID",
+        "minutes": 2629,
+        "goals": 8,
+        "assists": 7,
+        "weight": 53
+      },
+      {
+        "name": "Michael Keane",
+        "position": "DEF",
+        "minutes": 2588,
+        "goals": 3,
+        "assists": 1,
+        "weight": 25
+      },
+      {
+        "name": "Idrissa Gana Gueye",
+        "position": "MID",
+        "minutes": 2094,
+        "goals": 2,
+        "assists": 3,
+        "weight": 24
+      },
+      {
+        "name": "Thierno Barry",
+        "position": "FWD",
+        "minutes": 1898,
+        "goals": 8,
+        "assists": 0,
+        "weight": 35
+      },
+      {
+        "name": "Jack Grealish",
+        "position": "MID",
+        "minutes": 1627,
+        "goals": 2,
+        "assists": 6,
+        "weight": 27
+      },
+      {
+        "name": "Norberto Bercique Gomes Betuncal",
+        "position": "FWD",
+        "minutes": 1551,
+        "goals": 9,
+        "assists": 1,
+        "weight": 38
+      },
+      {
+        "name": "Tim Iroegbunam",
+        "position": "MID",
+        "minutes": 1477,
+        "goals": 0,
+        "assists": 3,
+        "weight": 14
+      },
+      {
+        "name": "Dwight McNeil",
+        "position": "MID",
+        "minutes": 1161,
+        "goals": 0,
+        "assists": 3,
+        "weight": 12
+      },
+      {
+        "name": "Carlos Alcaraz Durán",
+        "position": "MID",
+        "minutes": 679,
+        "goals": 0,
+        "assists": 1,
+        "weight": 6
+      },
+      {
+        "name": "Jarrad Branthwaite",
+        "position": "DEF",
+        "minutes": 678,
+        "goals": 1,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Merlin Röhl",
+        "position": "MID",
+        "minutes": 675,
+        "goals": 1,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Harrison Armstrong",
+        "position": "MID",
+        "minutes": 524,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Tyrique George",
+        "position": "MID",
+        "minutes": 351,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Tyler Dibling",
+        "position": "MID",
+        "minutes": 349,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Nathan Patterson",
+        "position": "DEF",
+        "minutes": 238,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Séamus Coleman",
+        "position": "DEF",
+        "minutes": 19,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Adam Aznou",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Braiden Graham",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Callum Bates",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Coby Ebere",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Elijah Campbell",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Harry Tyrer",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Isaac Heath",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jenson Metcalfe",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mark Travers",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Martin Sherif",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Reece Welch",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Roman Dixon",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tom King",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tyler Onyango",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Youssef Ramalho Chermiti",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "fulham": [
+      {
+        "name": "Bernd Leno",
+        "position": "GK",
+        "minutes": 3420,
+        "goals": 0,
+        "assists": 0,
+        "weight": 19
+      },
+      {
+        "name": "Sander Berge",
+        "position": "MID",
+        "minutes": 2904,
+        "goals": 0,
+        "assists": 3,
+        "weight": 22
+      },
+      {
+        "name": "Joachim Andersen",
+        "position": "DEF",
+        "minutes": 2882,
+        "goals": 0,
+        "assists": 1,
+        "weight": 18
+      },
+      {
+        "name": "Harry Wilson",
+        "position": "MID",
+        "minutes": 2674,
+        "goals": 10,
+        "assists": 9,
+        "weight": 63
+      },
+      {
+        "name": "Calvin Bassey",
+        "position": "DEF",
+        "minutes": 2532,
+        "goals": 1,
+        "assists": 1,
+        "weight": 19
+      },
+      {
+        "name": "Alex Iwobi",
+        "position": "MID",
+        "minutes": 2420,
+        "goals": 4,
+        "assists": 3,
+        "weight": 31
+      },
+      {
+        "name": "Raúl Jiménez Rodríguez",
+        "position": "FWD",
+        "minutes": 2183,
+        "goals": 9,
+        "assists": 5,
+        "weight": 49
+      },
+      {
+        "name": "Emile Smith Rowe",
+        "position": "MID",
+        "minutes": 1909,
+        "goals": 3,
+        "assists": 1,
+        "weight": 22
+      },
+      {
+        "name": "Timothy Castagne",
+        "position": "DEF",
+        "minutes": 1838,
+        "goals": 0,
+        "assists": 2,
+        "weight": 14
+      },
+      {
+        "name": "Ryan Sessegnon",
+        "position": "MID",
+        "minutes": 1816,
+        "goals": 3,
+        "assists": 3,
+        "weight": 25
+      },
+      {
+        "name": "Kenny Tete",
+        "position": "DEF",
+        "minutes": 1791,
+        "goals": 1,
+        "assists": 0,
+        "weight": 13
+      },
+      {
+        "name": "Saša Lukić",
+        "position": "MID",
+        "minutes": 1730,
+        "goals": 1,
+        "assists": 4,
+        "weight": 21
+      },
+      {
+        "name": "Antonee Robinson",
+        "position": "DEF",
+        "minutes": 1487,
+        "goals": 1,
+        "assists": 0,
+        "weight": 11
+      },
+      {
+        "name": "Josh King",
+        "position": "MID",
+        "minutes": 1290,
+        "goals": 1,
+        "assists": 3,
+        "weight": 16
+      },
+      {
+        "name": "Samuel Chukwueze",
+        "position": "MID",
+        "minutes": 1067,
+        "goals": 3,
+        "assists": 4,
+        "weight": 23
+      },
+      {
+        "name": "Kevin Santos Lopes de Macedo",
+        "position": "MID",
+        "minutes": 1030,
+        "goals": 1,
+        "assists": 3,
+        "weight": 15
+      },
+      {
+        "name": "Oscar Bobb",
+        "position": "MID",
+        "minutes": 1030,
+        "goals": 0,
+        "assists": 2,
+        "weight": 10
+      },
+      {
+        "name": "Rodrigo Muniz Carvalho",
+        "position": "FWD",
+        "minutes": 987,
+        "goals": 1,
+        "assists": 1,
+        "weight": 10
+      },
+      {
+        "name": "Jorge Cuenca Barreno",
+        "position": "DEF",
+        "minutes": 935,
+        "goals": 0,
+        "assists": 0,
+        "weight": 5
+      },
+      {
+        "name": "Issa Diop",
+        "position": "DEF",
+        "minutes": 812,
+        "goals": 1,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Tom Cairney",
+        "position": "MID",
+        "minutes": 756,
+        "goals": 2,
+        "assists": 0,
+        "weight": 10
+      },
+      {
+        "name": "Harrison Reed",
+        "position": "MID",
+        "minutes": 89,
+        "goals": 1,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Jonah Kusi-Asare",
+        "position": "FWD",
+        "minutes": 49,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Alfie McNally",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Andreas Hoelgebaum Pereira",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Benjamin Lecomte",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luke Harris",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Martial Godo",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Samuel Amissah",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Seth Ridgeon",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Steven Benda",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "leeds_united": [
+      {
+        "name": "Ethan Ampadu",
+        "position": "MID",
+        "minutes": 3119,
+        "goals": 1,
+        "assists": 4,
+        "weight": 28
+      },
+      {
+        "name": "Joe Rodon",
+        "position": "DEF",
+        "minutes": 2952,
+        "goals": 2,
+        "assists": 0,
+        "weight": 22
+      },
+      {
+        "name": "Pascal Struijk",
+        "position": "DEF",
+        "minutes": 2935,
+        "goals": 0,
+        "assists": 1,
+        "weight": 18
+      },
+      {
+        "name": "Jayden Bogle",
+        "position": "DEF",
+        "minutes": 2795,
+        "goals": 1,
+        "assists": 5,
+        "weight": 29
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "position": "FWD",
+        "minutes": 2721,
+        "goals": 14,
+        "assists": 2,
+        "weight": 61
+      },
+      {
+        "name": "Gabriel Gudmundsson",
+        "position": "DEF",
+        "minutes": 2637,
+        "goals": 0,
+        "assists": 0,
+        "weight": 15
+      },
+      {
+        "name": "Brenden Aaronson",
+        "position": "MID",
+        "minutes": 2449,
+        "goals": 4,
+        "assists": 8,
+        "weight": 42
+      },
+      {
+        "name": "Anton Stach",
+        "position": "MID",
+        "minutes": 2369,
+        "goals": 5,
+        "assists": 6,
+        "weight": 40
+      },
+      {
+        "name": "Karl Darlow",
+        "position": "GK",
+        "minutes": 1980,
+        "goals": 0,
+        "assists": 0,
+        "weight": 11
+      },
+      {
+        "name": "James Justin",
+        "position": "DEF",
+        "minutes": 1893,
+        "goals": 2,
+        "assists": 1,
+        "weight": 19
+      },
+      {
+        "name": "Jaka Bijol",
+        "position": "DEF",
+        "minutes": 1888,
+        "goals": 1,
+        "assists": 3,
+        "weight": 19
+      },
+      {
+        "name": "Noah Okafor",
+        "position": "MID",
+        "minutes": 1553,
+        "goals": 8,
+        "assists": 3,
+        "weight": 39
+      },
+      {
+        "name": "Lucas Estella Perri",
+        "position": "GK",
+        "minutes": 1440,
+        "goals": 0,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Ilia Gruev",
+        "position": "MID",
+        "minutes": 1318,
+        "goals": 0,
+        "assists": 4,
+        "weight": 15
+      },
+      {
+        "name": "Tanaka Ao",
+        "position": "MID",
+        "minutes": 1307,
+        "goals": 2,
+        "assists": 1,
+        "weight": 15
+      },
+      {
+        "name": "Lukas Nmecha",
+        "position": "FWD",
+        "minutes": 1065,
+        "goals": 6,
+        "assists": 1,
+        "weight": 26
+      },
+      {
+        "name": "Sean Longstaff",
+        "position": "MID",
+        "minutes": 1003,
+        "goals": 2,
+        "assists": 2,
+        "weight": 16
+      },
+      {
+        "name": "Daniel James",
+        "position": "MID",
+        "minutes": 547,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Wilfried Gnonto",
+        "position": "MID",
+        "minutes": 521,
+        "goals": 0,
+        "assists": 3,
+        "weight": 9
+      },
+      {
+        "name": "Sebastiaan Bornauw",
+        "position": "DEF",
+        "minutes": 429,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Jack Harrison",
+        "position": "MID",
+        "minutes": 262,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joël Piroe",
+        "position": "FWD",
+        "minutes": 244,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Facundo Buonanotte",
+        "position": "MID",
+        "minutes": 81,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Sam Byram",
+        "position": "DEF",
+        "minutes": 8,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Alex Cairns",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Alfie Cresswell",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Charlie Crew",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Darko Gyabi",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Harry Gray",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Illan Meslier",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Isaac Schmidt",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jayden Lienou",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joe Gelhardt",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Largie Ramazani",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mateo Joseph Fernández-Regatillo",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Patrick Bamford",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Rhys Chadwick",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Sam Chambers",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Sam Greenwood",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "liverpool": [
+      {
+        "name": "Virgil van Dijk",
+        "position": "DEF",
+        "minutes": 3420,
+        "goals": 6,
+        "assists": 1,
+        "weight": 39
+      },
+      {
+        "name": "Dominik Szoboszlai",
+        "position": "MID",
+        "minutes": 3232,
+        "goals": 6,
+        "assists": 7,
+        "weight": 50
+      },
+      {
+        "name": "Ibrahima Konaté",
+        "position": "DEF",
+        "minutes": 3090,
+        "goals": 1,
+        "assists": 0,
+        "weight": 20
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "position": "MID",
+        "minutes": 2991,
+        "goals": 5,
+        "assists": 5,
+        "weight": 42
+      },
+      {
+        "name": "Cody Gakpo",
+        "position": "MID",
+        "minutes": 2736,
+        "goals": 7,
+        "assists": 5,
+        "weight": 46
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "position": "MID",
+        "minutes": 2654,
+        "goals": 2,
+        "assists": 5,
+        "weight": 31
+      },
+      {
+        "name": "Florian Wirtz",
+        "position": "MID",
+        "minutes": 2374,
+        "goals": 5,
+        "assists": 4,
+        "weight": 36
+      },
+      {
+        "name": "Alisson Becker",
+        "position": "GK",
+        "minutes": 2340,
+        "goals": 0,
+        "assists": 0,
+        "weight": 13
+      },
+      {
+        "name": "Milos Kerkez",
+        "position": "DEF",
+        "minutes": 2251,
+        "goals": 2,
+        "assists": 1,
+        "weight": 21
+      },
+      {
+        "name": "Mohamed Salah",
+        "position": "MID",
+        "minutes": 2144,
+        "goals": 7,
+        "assists": 7,
+        "weight": 47
+      },
+      {
+        "name": "Curtis Jones",
+        "position": "MID",
+        "minutes": 1923,
+        "goals": 1,
+        "assists": 3,
+        "weight": 20
+      },
+      {
+        "name": "Hugo Ekitiké",
+        "position": "FWD",
+        "minutes": 1797,
+        "goals": 11,
+        "assists": 4,
+        "weight": 51
+      },
+      {
+        "name": "Andrew Robertson",
+        "position": "DEF",
+        "minutes": 1165,
+        "goals": 1,
+        "assists": 0,
+        "weight": 9
+      },
+      {
+        "name": "Jeremie Frimpong",
+        "position": "DEF",
+        "minutes": 1032,
+        "goals": 0,
+        "assists": 5,
+        "weight": 16
+      },
+      {
+        "name": "Conor Bradley",
+        "position": "DEF",
+        "minutes": 928,
+        "goals": 0,
+        "assists": 2,
+        "weight": 9
+      },
+      {
+        "name": "Giorgi Mamardashvili",
+        "position": "GK",
+        "minutes": 867,
+        "goals": 0,
+        "assists": 0,
+        "weight": 5
+      },
+      {
+        "name": "Alexander Isak",
+        "position": "FWD",
+        "minutes": 694,
+        "goals": 3,
+        "assists": 1,
+        "weight": 15
+      },
+      {
+        "name": "Joe Gomez",
+        "position": "DEF",
+        "minutes": 594,
+        "goals": 0,
+        "assists": 2,
+        "weight": 7
+      },
+      {
+        "name": "Rio Ngumoha",
+        "position": "MID",
+        "minutes": 547,
+        "goals": 2,
+        "assists": 1,
+        "weight": 11
+      },
+      {
+        "name": "Federico Chiesa",
+        "position": "MID",
+        "minutes": 317,
+        "goals": 2,
+        "assists": 1,
+        "weight": 10
+      },
+      {
+        "name": "Freddie Woodman",
+        "position": "GK",
+        "minutes": 212,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Endo Wataru",
+        "position": "MID",
+        "minutes": 170,
+        "goals": 0,
+        "assists": 1,
+        "weight": 3
+      },
+      {
+        "name": "Trey Nyoni",
+        "position": "MID",
+        "minutes": 21,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Amara Nallo",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ármin Pécsi",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Calvin Ramsay",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Darwin Núñez Ribeiro",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Giovanni Leoni",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "James McConnell",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jayden Danns",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kieran Morrison",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Konstantinos Tsimikas",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luis Díaz Marulanda",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Rhys Williams",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Stefan Bajčetić Maquieira",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Talla Ndiaye",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tyler Morton",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Wellity Lucky",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Will Wright",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "man_city": [
+      {
+        "name": "Antoine Semenyo",
+        "position": "MID",
+        "minutes": 3200,
+        "goals": 17,
+        "assists": 6,
+        "weight": 81
+      },
+      {
+        "name": "Marc Guéhi",
+        "position": "DEF",
+        "minutes": 3150,
+        "goals": 3,
+        "assists": 5,
+        "weight": 37
+      },
+      {
+        "name": "Gianluigi Donnarumma",
+        "position": "GK",
+        "minutes": 3060,
+        "goals": 0,
+        "assists": 0,
+        "weight": 17
+      },
+      {
+        "name": "Erling Haaland",
+        "position": "FWD",
+        "minutes": 2953,
+        "goals": 27,
+        "assists": 8,
+        "weight": 113
+      },
+      {
+        "name": "Bernardo Mota Veiga de Carvalho e Silva",
+        "position": "MID",
+        "minutes": 2869,
+        "goals": 2,
+        "assists": 4,
+        "weight": 30
+      },
+      {
+        "name": "Matheus Nunes",
+        "position": "DEF",
+        "minutes": 2861,
+        "goals": 1,
+        "assists": 8,
+        "weight": 35
+      },
+      {
+        "name": "Nico O'Reilly",
+        "position": "DEF",
+        "minutes": 2643,
+        "goals": 5,
+        "assists": 4,
+        "weight": 38
+      },
+      {
+        "name": "Rúben dos Santos Gato Alves Dias",
+        "position": "DEF",
+        "minutes": 2139,
+        "goals": 2,
+        "assists": 0,
+        "weight": 18
+      },
+      {
+        "name": "Phil Foden",
+        "position": "MID",
+        "minutes": 2078,
+        "goals": 7,
+        "assists": 5,
+        "weight": 43
+      },
+      {
+        "name": "Jérémy Doku",
+        "position": "MID",
+        "minutes": 1773,
+        "goals": 5,
+        "assists": 8,
+        "weight": 41
+      },
+      {
+        "name": "Rayan Cherki",
+        "position": "MID",
+        "minutes": 1772,
+        "goals": 4,
+        "assists": 13,
+        "weight": 48
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "position": "MID",
+        "minutes": 1623,
+        "goals": 5,
+        "assists": 3,
+        "weight": 30
+      },
+      {
+        "name": "Nico González Iglesias",
+        "position": "MID",
+        "minutes": 1561,
+        "goals": 1,
+        "assists": 0,
+        "weight": 12
+      },
+      {
+        "name": "Rodrigo 'Rodri' Hernandez Cascante",
+        "position": "MID",
+        "minutes": 1510,
+        "goals": 1,
+        "assists": 1,
+        "weight": 13
+      },
+      {
+        "name": "Abdukodir Khusanov",
+        "position": "DEF",
+        "minutes": 1427,
+        "goals": 0,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Joško Gvardiol",
+        "position": "DEF",
+        "minutes": 1370,
+        "goals": 2,
+        "assists": 2,
+        "weight": 18
+      },
+      {
+        "name": "Rayan Aït-Nouri",
+        "position": "DEF",
+        "minutes": 971,
+        "goals": 0,
+        "assists": 2,
+        "weight": 9
+      },
+      {
+        "name": "Sávio Moreira de Oliveira",
+        "position": "MID",
+        "minutes": 817,
+        "goals": 1,
+        "assists": 2,
+        "weight": 12
+      },
+      {
+        "name": "Omar Marmoush",
+        "position": "MID",
+        "minutes": 691,
+        "goals": 3,
+        "assists": 3,
+        "weight": 19
+      },
+      {
+        "name": "Nathan Aké",
+        "position": "DEF",
+        "minutes": 686,
+        "goals": 0,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "John Stones",
+        "position": "DEF",
+        "minutes": 436,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Rico Lewis",
+        "position": "DEF",
+        "minutes": 401,
+        "goals": 0,
+        "assists": 1,
+        "weight": 4
+      },
+      {
+        "name": "James Trafford",
+        "position": "GK",
+        "minutes": 360,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Max Alleyne",
+        "position": "DEF",
+        "minutes": 135,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mateo Kovačić",
+        "position": "MID",
+        "minutes": 125,
+        "goals": 0,
+        "assists": 1,
+        "weight": 3
+      },
+      {
+        "name": "Divine Mukasa",
+        "position": "MID",
+        "minutes": 25,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Charlie Gray",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Claudio Echeverri",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ederson Santana de Moraes",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "İlkay Gündoğan",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kalvin Phillips",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Manuel Akanji",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Marcus Bettinelli",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Reigan Heskey",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ryan McAidoo",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Stephen Mfuni",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Sverre Nypan",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Vitor de Oliveira Nunes dos Reis",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "man_utd": [
+      {
+        "name": "Luke Shaw",
+        "position": "DEF",
+        "minutes": 3220,
+        "goals": 1,
+        "assists": 1,
+        "weight": 23
+      },
+      {
+        "name": "Bruno Borges Fernandes",
+        "position": "MID",
+        "minutes": 3065,
+        "goals": 9,
+        "assists": 24,
+        "weight": 92
+      },
+      {
+        "name": "Senne Lammens",
+        "position": "GK",
+        "minutes": 2880,
+        "goals": 0,
+        "assists": 0,
+        "weight": 16
+      },
+      {
+        "name": "Bryan Mbeumo",
+        "position": "MID",
+        "minutes": 2611,
+        "goals": 11,
+        "assists": 3,
+        "weight": 54
+      },
+      {
+        "name": "Diogo Dalot Teixeira",
+        "position": "DEF",
+        "minutes": 2609,
+        "goals": 1,
+        "assists": 6,
+        "weight": 29
+      },
+      {
+        "name": "Carlos Henrique Casimiro",
+        "position": "MID",
+        "minutes": 2575,
+        "goals": 9,
+        "assists": 4,
+        "weight": 49
+      },
+      {
+        "name": "Matheus Santos Carneiro da Cunha",
+        "position": "MID",
+        "minutes": 2493,
+        "goals": 10,
+        "assists": 4,
+        "weight": 52
+      },
+      {
+        "name": "Amad Diallo",
+        "position": "MID",
+        "minutes": 2339,
+        "goals": 2,
+        "assists": 5,
+        "weight": 29
+      },
+      {
+        "name": "Leny Yoro",
+        "position": "DEF",
+        "minutes": 1730,
+        "goals": 0,
+        "assists": 1,
+        "weight": 12
+      },
+      {
+        "name": "Kobbie Mainoo",
+        "position": "MID",
+        "minutes": 1653,
+        "goals": 1,
+        "assists": 2,
+        "weight": 16
+      },
+      {
+        "name": "Harry Maguire",
+        "position": "DEF",
+        "minutes": 1649,
+        "goals": 1,
+        "assists": 2,
+        "weight": 16
+      },
+      {
+        "name": "Benjamin Sesko",
+        "position": "FWD",
+        "minutes": 1630,
+        "goals": 11,
+        "assists": 2,
+        "weight": 46
+      },
+      {
+        "name": "Patrick Dorgu",
+        "position": "DEF",
+        "minutes": 1440,
+        "goals": 4,
+        "assists": 4,
+        "weight": 28
+      },
+      {
+        "name": "Lisandro Martínez",
+        "position": "DEF",
+        "minutes": 1229,
+        "goals": 0,
+        "assists": 0,
+        "weight": 7
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "position": "DEF",
+        "minutes": 1170,
+        "goals": 1,
+        "assists": 0,
+        "weight": 10
+      },
+      {
+        "name": "Mason Mount",
+        "position": "MID",
+        "minutes": 1010,
+        "goals": 3,
+        "assists": 0,
+        "weight": 15
+      },
+      {
+        "name": "Noussair Mazraoui",
+        "position": "DEF",
+        "minutes": 977,
+        "goals": 0,
+        "assists": 0,
+        "weight": 5
+      },
+      {
+        "name": "Ayden Heaven",
+        "position": "DEF",
+        "minutes": 920,
+        "goals": 0,
+        "assists": 1,
+        "weight": 7
+      },
+      {
+        "name": "Manuel Ugarte Ribeiro",
+        "position": "MID",
+        "minutes": 876,
+        "goals": 0,
+        "assists": 0,
+        "weight": 5
+      },
+      {
+        "name": "Joshua Zirkzee",
+        "position": "FWD",
+        "minutes": 607,
+        "goals": 2,
+        "assists": 1,
+        "weight": 11
+      },
+      {
+        "name": "Altay Bayındır",
+        "position": "GK",
+        "minutes": 540,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Jack Fletcher",
+        "position": "MID",
+        "minutes": 107,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Shea Lacey",
+        "position": "MID",
+        "minutes": 40,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tyler Fletcher",
+        "position": "MID",
+        "minutes": 17,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Bendito Mantato",
+        "position": "MID",
+        "minutes": 15,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tyrell Malacia",
+        "position": "DEF",
+        "minutes": 15,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tyler Fredricson",
+        "position": "DEF",
+        "minutes": 2,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "André Onana",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Antony dos Santos",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Chido Obi",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Dermot Mee",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Diego León Blanco",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Elyh Harrison",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ethan Wheatley",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Godwill Kukonki",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Harry Amass",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jack Moorhouse",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jayce Fitzgerald",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jim Thwaites",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Marcus Rashford",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Rasmus Højlund",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Sékou Koné",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Toby Collyer",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tom Heaton",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "newcastle_united": [
+      {
+        "name": "Malick Thiaw",
+        "position": "DEF",
+        "minutes": 2963,
+        "goals": 4,
+        "assists": 0,
+        "weight": 28
+      },
+      {
+        "name": "Sandro Tonali",
+        "position": "MID",
+        "minutes": 2534,
+        "goals": 0,
+        "assists": 2,
+        "weight": 18
+      },
+      {
+        "name": "Bruno Guimarães Rodriguez Moura",
+        "position": "MID",
+        "minutes": 2456,
+        "goals": 9,
+        "assists": 7,
+        "weight": 55
+      },
+      {
+        "name": "Nick Pope",
+        "position": "GK",
+        "minutes": 2416,
+        "goals": 0,
+        "assists": 1,
+        "weight": 15
+      },
+      {
+        "name": "Dan Burn",
+        "position": "DEF",
+        "minutes": 2195,
+        "goals": 1,
+        "assists": 3,
+        "weight": 21
+      },
+      {
+        "name": "Lewis Hall",
+        "position": "DEF",
+        "minutes": 2176,
+        "goals": 1,
+        "assists": 2,
+        "weight": 19
+      },
+      {
+        "name": "Harvey Barnes",
+        "position": "MID",
+        "minutes": 1951,
+        "goals": 7,
+        "assists": 1,
+        "weight": 34
+      },
+      {
+        "name": "Joelinton Cássio Apolinário de Lira",
+        "position": "MID",
+        "minutes": 1950,
+        "goals": 2,
+        "assists": 1,
+        "weight": 19
+      },
+      {
+        "name": "Nick Woltemade",
+        "position": "FWD",
+        "minutes": 1896,
+        "goals": 8,
+        "assists": 4,
+        "weight": 43
+      },
+      {
+        "name": "Sven Botman",
+        "position": "DEF",
+        "minutes": 1834,
+        "goals": 1,
+        "assists": 1,
+        "weight": 15
+      },
+      {
+        "name": "Anthony Gordon",
+        "position": "MID",
+        "minutes": 1798,
+        "goals": 6,
+        "assists": 4,
+        "weight": 36
+      },
+      {
+        "name": "Jacob Murphy",
+        "position": "MID",
+        "minutes": 1606,
+        "goals": 3,
+        "assists": 2,
+        "weight": 22
+      },
+      {
+        "name": "Kieran Trippier",
+        "position": "DEF",
+        "minutes": 1586,
+        "goals": 0,
+        "assists": 1,
+        "weight": 11
+      },
+      {
+        "name": "Lewis Miley",
+        "position": "MID",
+        "minutes": 1493,
+        "goals": 1,
+        "assists": 4,
+        "weight": 19
+      },
+      {
+        "name": "Jacob Ramsey",
+        "position": "MID",
+        "minutes": 1441,
+        "goals": 2,
+        "assists": 3,
+        "weight": 20
+      },
+      {
+        "name": "Tino Livramento",
+        "position": "DEF",
+        "minutes": 1326,
+        "goals": 0,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Anthony Elanga",
+        "position": "MID",
+        "minutes": 1302,
+        "goals": 0,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Fabian Schär",
+        "position": "DEF",
+        "minutes": 1089,
+        "goals": 0,
+        "assists": 0,
+        "weight": 6
+      },
+      {
+        "name": "Aaron Ramsdale",
+        "position": "GK",
+        "minutes": 1003,
+        "goals": 0,
+        "assists": 0,
+        "weight": 6
+      },
+      {
+        "name": "Joe Willock",
+        "position": "MID",
+        "minutes": 972,
+        "goals": 0,
+        "assists": 2,
+        "weight": 9
+      },
+      {
+        "name": "William Osula",
+        "position": "FWD",
+        "minutes": 805,
+        "goals": 7,
+        "assists": 1,
+        "weight": 27
+      },
+      {
+        "name": "Yoane Wissa",
+        "position": "FWD",
+        "minutes": 517,
+        "goals": 1,
+        "assists": 1,
+        "weight": 8
+      },
+      {
+        "name": "Emil Krafth",
+        "position": "DEF",
+        "minutes": 45,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jamaal Lascelles",
+        "position": "DEF",
+        "minutes": 19,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Sean Neave",
+        "position": "FWD",
+        "minutes": 13,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Alex Murphy",
+        "position": "DEF",
+        "minutes": 7,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Antoñito Cordero Campillo",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Garang Kuol",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Harrison Ashby",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Isaac Hayden",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joe White",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "John Ruddy",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Leo Shahar",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mark Gillespie",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Matt Targett",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Miodrag Pivaš",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Odysseas Vlachodimos",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Sam Alabi",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Seung-Soo Park",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "nottingham_forest": [
+      {
+        "name": "Nikola Milenković",
+        "position": "DEF",
+        "minutes": 3375,
+        "goals": 0,
+        "assists": 1,
+        "weight": 21
+      },
+      {
+        "name": "Elliot Anderson",
+        "position": "MID",
+        "minutes": 3332,
+        "goals": 4,
+        "assists": 5,
+        "weight": 41
+      },
+      {
+        "name": "Neco Williams",
+        "position": "DEF",
+        "minutes": 3203,
+        "goals": 2,
+        "assists": 3,
+        "weight": 30
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "position": "MID",
+        "minutes": 3101,
+        "goals": 15,
+        "assists": 4,
+        "weight": 70
+      },
+      {
+        "name": "Matz Sels",
+        "position": "GK",
+        "minutes": 2667,
+        "goals": 0,
+        "assists": 0,
+        "weight": 15
+      },
+      {
+        "name": "Igor Jesus Maciel da Cruz",
+        "position": "FWD",
+        "minutes": 2293,
+        "goals": 6,
+        "assists": 6,
+        "weight": 43
+      },
+      {
+        "name": "Murillo Costa dos Santos",
+        "position": "DEF",
+        "minutes": 2130,
+        "goals": 1,
+        "assists": 0,
+        "weight": 15
+      },
+      {
+        "name": "Ibrahim Sangaré",
+        "position": "MID",
+        "minutes": 2073,
+        "goals": 2,
+        "assists": 2,
+        "weight": 22
+      },
+      {
+        "name": "Callum Hudson-Odoi",
+        "position": "MID",
+        "minutes": 1838,
+        "goals": 3,
+        "assists": 4,
+        "weight": 27
+      },
+      {
+        "name": "Omari Hutchinson",
+        "position": "MID",
+        "minutes": 1676,
+        "goals": 1,
+        "assists": 7,
+        "weight": 26
+      },
+      {
+        "name": "Ola Aina",
+        "position": "DEF",
+        "minutes": 1587,
+        "goals": 0,
+        "assists": 2,
+        "weight": 13
+      },
+      {
+        "name": "Felipe Rodrigues da Silva",
+        "position": "DEF",
+        "minutes": 1340,
+        "goals": 1,
+        "assists": 0,
+        "weight": 10
+      },
+      {
+        "name": "Nicolás Domínguez",
+        "position": "MID",
+        "minutes": 1168,
+        "goals": 1,
+        "assists": 1,
+        "weight": 11
+      },
+      {
+        "name": "Dan Ndoye",
+        "position": "MID",
+        "minutes": 1167,
+        "goals": 1,
+        "assists": 2,
+        "weight": 13
+      },
+      {
+        "name": "Nicolò Savona",
+        "position": "DEF",
+        "minutes": 1025,
+        "goals": 2,
+        "assists": 0,
+        "weight": 12
+      },
+      {
+        "name": "Chris Wood",
+        "position": "FWD",
+        "minutes": 896,
+        "goals": 3,
+        "assists": 0,
+        "weight": 14
+      },
+      {
+        "name": "Ryan Yates",
+        "position": "MID",
+        "minutes": 602,
+        "goals": 0,
+        "assists": 2,
+        "weight": 7
+      },
+      {
+        "name": "Dilane Bakwa",
+        "position": "MID",
+        "minutes": 549,
+        "goals": 0,
+        "assists": 2,
+        "weight": 7
+      },
+      {
+        "name": "Jair Paula da Cunha Filho",
+        "position": "DEF",
+        "minutes": 514,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Taiwo Awoniyi",
+        "position": "FWD",
+        "minutes": 480,
+        "goals": 4,
+        "assists": 2,
+        "weight": 19
+      },
+      {
+        "name": "John Victor Maciel Furtado",
+        "position": "GK",
+        "minutes": 437,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Luca Netz",
+        "position": "DEF",
+        "minutes": 353,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Oleksandr Zinchenko",
+        "position": "DEF",
+        "minutes": 352,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "James McAtee",
+        "position": "MID",
+        "minutes": 288,
+        "goals": 0,
+        "assists": 1,
+        "weight": 4
+      },
+      {
+        "name": "Stefan Ortega Moreno",
+        "position": "GK",
+        "minutes": 270,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Zach Abbott",
+        "position": "DEF",
+        "minutes": 165,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Lorenzo Lucca",
+        "position": "FWD",
+        "minutes": 126,
+        "goals": 1,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Arnaud Kalimuendo",
+        "position": "FWD",
+        "minutes": 89,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Angus Gunn",
+        "position": "GK",
+        "minutes": 45,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "João Pedro Ferreira da Silva",
+        "position": "MID",
+        "minutes": 11,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Archie Whitehall",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Carlos Miguel dos Santos Pereira",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "David Mota Veiga Teixeira do Carmo",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Eric da Silva Moreira",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jimmy Sinclair",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Lamin Sillah",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Lewis O'Brien",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luis Eduardo Soares da Silva",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Marko Stamenić",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Matt Turner",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Omar Richards",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Willy Boly",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "sunderland": [
+      {
+        "name": "Robin Roefs",
+        "position": "GK",
+        "minutes": 3150,
+        "goals": 0,
+        "assists": 0,
+        "weight": 18
+      },
+      {
+        "name": "Trai Hume",
+        "position": "DEF",
+        "minutes": 3032,
+        "goals": 2,
+        "assists": 1,
+        "weight": 25
+      },
+      {
+        "name": "Enzo Le Fée",
+        "position": "MID",
+        "minutes": 2930,
+        "goals": 5,
+        "assists": 6,
+        "weight": 43
+      },
+      {
+        "name": "Granit Xhaka",
+        "position": "MID",
+        "minutes": 2901,
+        "goals": 1,
+        "assists": 6,
+        "weight": 31
+      },
+      {
+        "name": "Noah Sadiki",
+        "position": "MID",
+        "minutes": 2891,
+        "goals": 0,
+        "assists": 2,
+        "weight": 20
+      },
+      {
+        "name": "Omar Alderete",
+        "position": "DEF",
+        "minutes": 2797,
+        "goals": 1,
+        "assists": 1,
+        "weight": 21
+      },
+      {
+        "name": "Nordi Mukiele",
+        "position": "DEF",
+        "minutes": 2784,
+        "goals": 3,
+        "assists": 5,
+        "weight": 34
+      },
+      {
+        "name": "Daniel Ballard",
+        "position": "DEF",
+        "minutes": 2144,
+        "goals": 2,
+        "assists": 2,
+        "weight": 22
+      },
+      {
+        "name": "Reinildo Mandava",
+        "position": "DEF",
+        "minutes": 1966,
+        "goals": 0,
+        "assists": 2,
+        "weight": 15
+      },
+      {
+        "name": "Brian Brobbey",
+        "position": "FWD",
+        "minutes": 1920,
+        "goals": 7,
+        "assists": 2,
+        "weight": 36
+      },
+      {
+        "name": "Lutsharel Geertruida",
+        "position": "DEF",
+        "minutes": 1681,
+        "goals": 0,
+        "assists": 0,
+        "weight": 9
+      },
+      {
+        "name": "Chemsdine Talbi",
+        "position": "MID",
+        "minutes": 1553,
+        "goals": 4,
+        "assists": 2,
+        "weight": 25
+      },
+      {
+        "name": "Habib Diarra",
+        "position": "MID",
+        "minutes": 1403,
+        "goals": 2,
+        "assists": 6,
+        "weight": 26
+      },
+      {
+        "name": "Wilson Isidor",
+        "position": "FWD",
+        "minutes": 1148,
+        "goals": 6,
+        "assists": 1,
+        "weight": 26
+      },
+      {
+        "name": "Chris Rigg",
+        "position": "MID",
+        "minutes": 758,
+        "goals": 1,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Eliezer Mayenda Dossou",
+        "position": "FWD",
+        "minutes": 751,
+        "goals": 2,
+        "assists": 0,
+        "weight": 10
+      },
+      {
+        "name": "Simon Adingra",
+        "position": "MID",
+        "minutes": 649,
+        "goals": 1,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Bertrand Traoré",
+        "position": "MID",
+        "minutes": 634,
+        "goals": 1,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Luke O'Nien",
+        "position": "DEF",
+        "minutes": 565,
+        "goals": 0,
+        "assists": 1,
+        "weight": 5
+      },
+      {
+        "name": "Nilson Angulo",
+        "position": "MID",
+        "minutes": 401,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Romaine Mundle",
+        "position": "MID",
+        "minutes": 399,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Dennis Cirkin",
+        "position": "DEF",
+        "minutes": 319,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Melker Ellborg",
+        "position": "GK",
+        "minutes": 270,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Jenson Seelt",
+        "position": "DEF",
+        "minutes": 133,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Arthur Masuaku",
+        "position": "DEF",
+        "minutes": 125,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Djiamgone Jocelin Ta Bi",
+        "position": "MID",
+        "minutes": 38,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Patrick Roberts",
+        "position": "MID",
+        "minutes": 27,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Dan Neil",
+        "position": "MID",
+        "minutes": 13,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Abdoullah Ba",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ahmed Abdullahi",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Aji Alese",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Alan Browne",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Anthony Patterson",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Blondy Nna Noukeu",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Harrison Jones",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ian Poveda-Ocampo",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jack Whittaker",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jay Matete",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jaydon Jones",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jenson Jones",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joe Anderson",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Leo Fuhr Hjelde",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luís Hemir Silva Semedo",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Milan Aleksić",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Nazarii Rusyn",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Nectarios Triantis",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Niall Huggins",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Pierre Ekwah Elimby",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Simon Moore",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Timothée Pembélé",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tymur Tutierov",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Zak Johnson",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "tottenham": [
+      {
+        "name": "Micky van de Ven",
+        "position": "DEF",
+        "minutes": 3041,
+        "goals": 4,
+        "assists": 1,
+        "weight": 31
+      },
+      {
+        "name": "Pedro Porro Sauceda",
+        "position": "DEF",
+        "minutes": 2793,
+        "goals": 1,
+        "assists": 3,
+        "weight": 25
+      },
+      {
+        "name": "Guglielmo Vicario",
+        "position": "GK",
+        "minutes": 2790,
+        "goals": 0,
+        "assists": 0,
+        "weight": 16
+      },
+      {
+        "name": "João Maria Lobo Alves Palhares Costa Palhinha Gonçalves",
+        "position": "MID",
+        "minutes": 2192,
+        "goals": 5,
+        "assists": 3,
+        "weight": 33
+      },
+      {
+        "name": "Djed Spence",
+        "position": "DEF",
+        "minutes": 2049,
+        "goals": 0,
+        "assists": 0,
+        "weight": 11
+      },
+      {
+        "name": "Richarlison de Andrade",
+        "position": "FWD",
+        "minutes": 1954,
+        "goals": 11,
+        "assists": 4,
+        "weight": 52
+      },
+      {
+        "name": "Rodrigo Bentancur",
+        "position": "MID",
+        "minutes": 1880,
+        "goals": 1,
+        "assists": 1,
+        "weight": 15
+      },
+      {
+        "name": "Cristian Romero",
+        "position": "DEF",
+        "minutes": 1869,
+        "goals": 4,
+        "assists": 1,
+        "weight": 24
+      },
+      {
+        "name": "Xavi Simons",
+        "position": "MID",
+        "minutes": 1747,
+        "goals": 2,
+        "assists": 5,
+        "weight": 26
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "position": "FWD",
+        "minutes": 1655,
+        "goals": 1,
+        "assists": 1,
+        "weight": 14
+      },
+      {
+        "name": "Mohammed Kudus",
+        "position": "MID",
+        "minutes": 1535,
+        "goals": 2,
+        "assists": 6,
+        "weight": 27
+      },
+      {
+        "name": "Kevin Danso",
+        "position": "DEF",
+        "minutes": 1489,
+        "goals": 0,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Archie Gray",
+        "position": "MID",
+        "minutes": 1471,
+        "goals": 2,
+        "assists": 2,
+        "weight": 18
+      },
+      {
+        "name": "Pape Matar Sarr",
+        "position": "MID",
+        "minutes": 1388,
+        "goals": 2,
+        "assists": 4,
+        "weight": 22
+      },
+      {
+        "name": "Destiny Udogie",
+        "position": "DEF",
+        "minutes": 1335,
+        "goals": 0,
+        "assists": 1,
+        "weight": 9
+      },
+      {
+        "name": "Mathys Tel",
+        "position": "MID",
+        "minutes": 1334,
+        "goals": 4,
+        "assists": 2,
+        "weight": 23
+      },
+      {
+        "name": "Conor Gallagher",
+        "position": "MID",
+        "minutes": 1183,
+        "goals": 1,
+        "assists": 1,
+        "weight": 12
+      },
+      {
+        "name": "Dominic Solanke-Mitchell",
+        "position": "FWD",
+        "minutes": 997,
+        "goals": 3,
+        "assists": 0,
+        "weight": 15
+      },
+      {
+        "name": "Wilson Odobert",
+        "position": "MID",
+        "minutes": 972,
+        "goals": 0,
+        "assists": 2,
+        "weight": 9
+      },
+      {
+        "name": "Lucas Bergvall",
+        "position": "MID",
+        "minutes": 955,
+        "goals": 1,
+        "assists": 3,
+        "weight": 14
+      },
+      {
+        "name": "Antonín Kinský",
+        "position": "GK",
+        "minutes": 630,
+        "goals": 0,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Yves Bissouma",
+        "position": "MID",
+        "minutes": 600,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Radu Drăgușin",
+        "position": "DEF",
+        "minutes": 515,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "João Victor de Souza Menezes",
+        "position": "DEF",
+        "minutes": 142,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ben Davies",
+        "position": "DEF",
+        "minutes": 136,
+        "goals": 1,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "James Maddison",
+        "position": "MID",
+        "minutes": 34,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Callum Olusesi",
+        "position": "MID",
+        "minutes": 14,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Dane Scarlett",
+        "position": "FWD",
+        "minutes": 7,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "James Rowswell",
+        "position": "DEF",
+        "minutes": 1,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jun'ai Byfield",
+        "position": "DEF",
+        "minutes": 1,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ashley Phillips",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Brandon Austin",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Bryan Gil Salvatierra",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "James Wilson",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Lucá Williams-Barnett",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luka Vušković",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Manor Solomon",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mikey Moore",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Rio Kyerematen",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Son Heung-min",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Takai Kōta",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Will Lankshear",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Yang Min-hyeok",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Yusuf Akhamrich",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "west_ham": [
+      {
+        "name": "Jarrod Bowen",
+        "position": "FWD",
+        "minutes": 3406,
+        "goals": 9,
+        "assists": 13,
+        "weight": 72
+      },
+      {
+        "name": "Mateus Gonçalo Espanha Fernandes",
+        "position": "MID",
+        "minutes": 3017,
+        "goals": 3,
+        "assists": 4,
+        "weight": 34
+      },
+      {
+        "name": "El Hadji Malick Diouf",
+        "position": "DEF",
+        "minutes": 2706,
+        "goals": 0,
+        "assists": 6,
+        "weight": 27
+      },
+      {
+        "name": "Konstantinos Mavropanos",
+        "position": "DEF",
+        "minutes": 2532,
+        "goals": 3,
+        "assists": 0,
+        "weight": 23
+      },
+      {
+        "name": "Crysencio Summerville",
+        "position": "MID",
+        "minutes": 2470,
+        "goals": 5,
+        "assists": 4,
+        "weight": 37
+      },
+      {
+        "name": "Tomáš Souček",
+        "position": "MID",
+        "minutes": 2190,
+        "goals": 5,
+        "assists": 2,
+        "weight": 31
+      },
+      {
+        "name": "Aaron Wan-Bissaka",
+        "position": "DEF",
+        "minutes": 2080,
+        "goals": 0,
+        "assists": 3,
+        "weight": 18
+      },
+      {
+        "name": "Jean-Clair Todibo",
+        "position": "DEF",
+        "minutes": 1817,
+        "goals": 0,
+        "assists": 1,
+        "weight": 12
+      },
+      {
+        "name": "Alphonse Areola",
+        "position": "GK",
+        "minutes": 1800,
+        "goals": 0,
+        "assists": 1,
+        "weight": 12
+      },
+      {
+        "name": "Mads Hermansen",
+        "position": "GK",
+        "minutes": 1620,
+        "goals": 0,
+        "assists": 1,
+        "weight": 11
+      },
+      {
+        "name": "Maximilian Kilman",
+        "position": "DEF",
+        "minutes": 1559,
+        "goals": 0,
+        "assists": 0,
+        "weight": 9
+      },
+      {
+        "name": "Lucas Tolentino Coelho de Lima",
+        "position": "MID",
+        "minutes": 1513,
+        "goals": 4,
+        "assists": 2,
+        "weight": 24
+      },
+      {
+        "name": "Valentín Castellanos",
+        "position": "FWD",
+        "minutes": 1384,
+        "goals": 6,
+        "assists": 1,
+        "weight": 28
+      },
+      {
+        "name": "Kyle Walker-Peters",
+        "position": "DEF",
+        "minutes": 1378,
+        "goals": 1,
+        "assists": 0,
+        "weight": 11
+      },
+      {
+        "name": "Axel Disasi",
+        "position": "DEF",
+        "minutes": 1254,
+        "goals": 0,
+        "assists": 0,
+        "weight": 7
+      },
+      {
+        "name": "Callum Wilson",
+        "position": "FWD",
+        "minutes": 1234,
+        "goals": 7,
+        "assists": 2,
+        "weight": 32
+      },
+      {
+        "name": "Freddie Potts",
+        "position": "MID",
+        "minutes": 1162,
+        "goals": 0,
+        "assists": 1,
+        "weight": 8
+      },
+      {
+        "name": "Soungoutou Magassa",
+        "position": "MID",
+        "minutes": 971,
+        "goals": 1,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Pablo Felipe Pereira de Jesus",
+        "position": "FWD",
+        "minutes": 819,
+        "goals": 0,
+        "assists": 1,
+        "weight": 7
+      },
+      {
+        "name": "Ollie Scarles",
+        "position": "DEF",
+        "minutes": 656,
+        "goals": 0,
+        "assists": 1,
+        "weight": 6
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "position": "FWD",
+        "minutes": 407,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Adama Traoré Diarra",
+        "position": "MID",
+        "minutes": 376,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Nayef Aguerd",
+        "position": "DEF",
+        "minutes": 180,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Guido Rodríguez",
+        "position": "MID",
+        "minutes": 175,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Andy Irving",
+        "position": "MID",
+        "minutes": 156,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luis Guilherme Lira dos Santos",
+        "position": "MID",
+        "minutes": 121,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ezra Mayers",
+        "position": "DEF",
+        "minutes": 113,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Mohamadou Kanté",
+        "position": "MID",
+        "minutes": 67,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Callum Marshall",
+        "position": "FWD",
+        "minutes": 58,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "George Earthy",
+        "position": "MID",
+        "minutes": 8,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Airidas Golambeckis",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Edson Álvarez Velázquez",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Emerson Palmieri dos Santos",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Finlay Herrick",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Kaelan Casey",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Keiber Lamadrid",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Krisztián Hegyi",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Lewis Orford",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Lukasz Fabianski",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Maxwel Cornet",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Wes Foderingham",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ],
+    "wolves": [
+      {
+        "name": "João Victor Gomes da Silva",
+        "position": "MID",
+        "minutes": 2829,
+        "goals": 1,
+        "assists": 2,
+        "weight": 23
+      },
+      {
+        "name": "André Trindade da Costa Neto",
+        "position": "MID",
+        "minutes": 2760,
+        "goals": 1,
+        "assists": 0,
+        "weight": 18
+      },
+      {
+        "name": "Santiago Ignacio Bueno",
+        "position": "DEF",
+        "minutes": 2552,
+        "goals": 3,
+        "assists": 2,
+        "weight": 27
+      },
+      {
+        "name": "Hugo Bueno López",
+        "position": "DEF",
+        "minutes": 2359,
+        "goals": 1,
+        "assists": 3,
+        "weight": 22
+      },
+      {
+        "name": "Ladislav Krejcí",
+        "position": "DEF",
+        "minutes": 2356,
+        "goals": 2,
+        "assists": 2,
+        "weight": 23
+      },
+      {
+        "name": "Yerson Mosquera Valdelamar",
+        "position": "DEF",
+        "minutes": 2137,
+        "goals": 0,
+        "assists": 0,
+        "weight": 12
+      },
+      {
+        "name": "José Malheiro de Sá",
+        "position": "GK",
+        "minutes": 2070,
+        "goals": 0,
+        "assists": 0,
+        "weight": 12
+      },
+      {
+        "name": "Jackson Tchatchoua",
+        "position": "DEF",
+        "minutes": 1834,
+        "goals": 0,
+        "assists": 1,
+        "weight": 12
+      },
+      {
+        "name": "Mateus Mané",
+        "position": "FWD",
+        "minutes": 1787,
+        "goals": 3,
+        "assists": 2,
+        "weight": 23
+      },
+      {
+        "name": "Hwang Hee-chan",
+        "position": "MID",
+        "minutes": 1439,
+        "goals": 2,
+        "assists": 2,
+        "weight": 18
+      },
+      {
+        "name": "Toti Gomes",
+        "position": "DEF",
+        "minutes": 1423,
+        "goals": 0,
+        "assists": 0,
+        "weight": 8
+      },
+      {
+        "name": "Tolu Arokodare",
+        "position": "FWD",
+        "minutes": 1402,
+        "goals": 3,
+        "assists": 2,
+        "weight": 21
+      },
+      {
+        "name": "Jean-Ricner Bellegarde",
+        "position": "MID",
+        "minutes": 1239,
+        "goals": 1,
+        "assists": 1,
+        "weight": 12
+      },
+      {
+        "name": "Adam Armstrong",
+        "position": "FWD",
+        "minutes": 1141,
+        "goals": 2,
+        "assists": 2,
+        "weight": 16
+      },
+      {
+        "name": "Jhon Arias",
+        "position": "MID",
+        "minutes": 1117,
+        "goals": 1,
+        "assists": 0,
+        "weight": 9
+      },
+      {
+        "name": "Emmanuel Agbadou",
+        "position": "DEF",
+        "minutes": 1100,
+        "goals": 0,
+        "assists": 0,
+        "weight": 6
+      },
+      {
+        "name": "Sam Johnstone",
+        "position": "GK",
+        "minutes": 1080,
+        "goals": 0,
+        "assists": 0,
+        "weight": 6
+      },
+      {
+        "name": "David Møller Wolfe",
+        "position": "DEF",
+        "minutes": 1042,
+        "goals": 0,
+        "assists": 2,
+        "weight": 10
+      },
+      {
+        "name": "Rodrigo Martins Gomes",
+        "position": "DEF",
+        "minutes": 954,
+        "goals": 3,
+        "assists": 0,
+        "weight": 14
+      },
+      {
+        "name": "Marshall Munetsi",
+        "position": "MID",
+        "minutes": 872,
+        "goals": 1,
+        "assists": 2,
+        "weight": 12
+      },
+      {
+        "name": "Matt Doherty",
+        "position": "DEF",
+        "minutes": 786,
+        "goals": 0,
+        "assists": 0,
+        "weight": 4
+      },
+      {
+        "name": "Angel Gomes",
+        "position": "MID",
+        "minutes": 457,
+        "goals": 0,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Ki-Jana Hoever",
+        "position": "DEF",
+        "minutes": 423,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Daniel Bentley",
+        "position": "GK",
+        "minutes": 270,
+        "goals": 0,
+        "assists": 0,
+        "weight": 2
+      },
+      {
+        "name": "Pedro Cardoso de Lima",
+        "position": "DEF",
+        "minutes": 257,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Fer López González",
+        "position": "MID",
+        "minutes": 228,
+        "goals": 0,
+        "assists": 1,
+        "weight": 3
+      },
+      {
+        "name": "Tawanda Chirewa",
+        "position": "MID",
+        "minutes": 25,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Jerome Abbey",
+        "position": "MID",
+        "minutes": 16,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Saša Kalajdžić",
+        "position": "FWD",
+        "minutes": 14,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Tom Edozie",
+        "position": "MID",
+        "minutes": 12,
+        "goals": 1,
+        "assists": 0,
+        "weight": 3
+      },
+      {
+        "name": "Alfie Brooks",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Alfie Pond",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Bastien Meupiyou Menadjou",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Boubacar Traoré",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Enso González Medina",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Ethan Sutherland",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Fábio Soares Silva",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Gonçalo Manuel Ganchinho Guedes",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Joe Hodge",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Josh Gracey",
+        "position": "GK",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Leon Chiwome",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Luke Rawlings",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Nathan Fraser",
+        "position": "FWD",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Saheed Olagunju",
+        "position": "DEF",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      },
+      {
+        "name": "Temple Ojinnaka",
+        "position": "MID",
+        "minutes": 0,
+        "goals": 0,
+        "assists": 0,
+        "weight": 1
+      }
+    ]
+  }
+}

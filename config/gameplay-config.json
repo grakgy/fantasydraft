@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "description": "比赛引擎主要可调参数。修改后重启本地服务生效。所有评级使用0-100尺度。",
+  "teamRatingScale": {
+    "minimum": 38.0,
+    "maximum": 98.0,
+    "note": "玩家与AI共用同一0-100球队评级尺度；选秀池不提供隐藏比赛加成。"
+  },
+  "playerAttributeGroups": {
+    "attributePointScale": 5.0,
+    "outfield": {
+      "attack": ["射门", "远射", "无球跑动", "镇定", "预判"],
+      "creation": ["传球", "视野", "技术", "决断", "停球"],
+      "defense": ["抢断", "盯人", "选位", "预判", "集中"],
+      "physical": ["速度", "爆发力", "耐力", "强壮", "灵活"]
+    },
+    "goalkeeper": {
+      "keeping": ["反应", "手控球", "一对一", "选位", "集中"],
+      "distribution": ["大脚开球", "手抛球", "传球", "决断"],
+      "physical": ["强壮", "灵活", "爆发力"]
+    }
+  },
+  "teamRatingWeights": {
+    "attack": {
+      "positionalAttack": 0.72,
+      "allCreation": 0.28
+    },
+    "midfield": {
+      "positionalCreation": 0.68,
+      "allPhysical": 0.32
+    },
+    "defense": {
+      "positionalDefense": 0.76,
+      "allPhysical": 0.24
+    }
+  },
+  "expectedGoals": {
+    "base": 1.18,
+    "attackVsDefenseDivisor": 24.0,
+    "midfieldReference": 77.0,
+    "midfieldDivisor": 55.0,
+    "goalkeeperReference": 78.0,
+    "goalkeeperDivisor": 42.0,
+    "homeAdvantage": 0.2,
+    "minimum": 0.18,
+    "maximum": 3.7
+  },
+  "tacticalChanceInfluence": 0.3,
+  "aiTeamStrengthSpread": {
+    "reference": 71.0,
+    "multiplier": 1.45
+  },
+  "aiDifficulty": {
+    "baseRatingModifier": -2.5,
+    "voucherCompensation": {
+      "expectedVoucherCount": 11,
+      "baselineScore": 12.0,
+      "poolScores": {
+        "legend": 2.0,
+        "star": 1.0,
+        "player": 0.0
+      },
+      "ratingReductionPerPointShortfall": 0.2,
+      "maximumAdditionalReduction": 1.2
+    },
+    "note": "AI基础削弱作用于全部AI球队；池券补偿只在AI对阵玩家时生效，不改变球员属性与个人评分。"
+  },
+  "aiTeamSeasonForm": {
+    "enabled": true,
+    "tiers": [
+      { "modifier": -0.6, "probabilityPct": 8 },
+      { "modifier": -0.4, "probabilityPct": 13 },
+      { "modifier": -0.2, "probabilityPct": 19 },
+      { "modifier": 0.0, "probabilityPct": 20 },
+      { "modifier": 0.2, "probabilityPct": 19 },
+      { "modifier": 0.4, "probabilityPct": 13 },
+      { "modifier": 0.6, "probabilityPct": 8 }
+    ]
+  },
+  "aiTeamForm": {
+    "enabled": true,
+    "tiers": [
+      { "modifier": -3.0, "probabilityPct": 10 },
+      { "modifier": -1.5, "probabilityPct": 20 },
+      { "modifier": 0.0, "probabilityPct": 40 },
+      { "modifier": 1.5, "probabilityPct": 20 },
+      { "modifier": 3.0, "probabilityPct": 10 }
+    ]
+  },
+  "goalContributionWeights": {
+    "scorerByPosition": {
+      "GK": 0.01,
+      "CB": 0.10,
+      "LB": 0.20,
+      "LWB": 0.42,
+      "RB": 0.20,
+      "RWB": 0.42,
+      "CDM": 0.38,
+      "CM": 0.68,
+      "CAM": 1.25,
+      "LM": 1.05,
+      "RM": 1.05,
+      "LW": 1.45,
+      "RW": 1.45,
+      "ST": 1.85
+    },
+    "assisterByPosition": {
+      "GK": 0.03,
+      "CB": 0.22,
+      "LB": 0.72,
+      "LWB": 0.95,
+      "RB": 0.72,
+      "RWB": 0.95,
+      "CDM": 0.58,
+      "CM": 1.18,
+      "CAM": 1.60,
+      "LM": 1.28,
+      "RM": 1.28,
+      "LW": 1.38,
+      "RW": 1.38,
+      "ST": 0.82
+    },
+    "assistProbability": 0.76
+  },
+  "playerMatchRating": {
+    "base": 6.20,
+    "goalBonus": 0.82,
+    "assistBonus": 0.44,
+    "winBonus": 0.18,
+    "drawBonus": 0.0,
+    "lossPenalty": -0.18,
+    "goalDifferencePointBonus": 0.06,
+    "goalDifferenceMaximum": 0.24,
+    "rolePerformanceWeight": 0.72,
+    "cleanSheetGoalkeeperBonus": 0.42,
+    "cleanSheetDefenderBonus": 0.32,
+    "cleanSheetDefensiveMidfielderBonus": 0.14,
+    "goalConcededGoalkeeperPenalty": 0.10,
+    "goalConcededDefenderPenalty": 0.06,
+    "saveBonus": 0.055,
+    "errorLeadingToGoalPenalty": 0.82,
+    "ownGoalPenalty": 1.30,
+    "minimum": 3.0,
+    "maximum": 10.0
+  },
+  "opponentEvents": {
+    "assistProbability": 0.76
+  },
+  "seasonState": {
+    "persistentInjuries": false,
+    "persistentFatigue": false,
+    "cardSuspensions": false,
+    "note": "当前版本无伤病、红黄牌、停赛、体能延续和换人。"
+  }
+}

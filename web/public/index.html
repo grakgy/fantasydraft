@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FM26风格的英超38轮梦幻选秀网页游戏">
+  <meta name="theme-color" content="#071713">
+  <title>FM26 梦幻选秀</title>
+  <link rel="stylesheet" href="/styles.css?v=16">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="FM26 梦幻选秀首页">
+      <span class="brand-mark">FD</span>
+      <span><b>FANTASY DRAFT</b><small>PREMIER LEAGUE · 38 ROUNDS</small></span>
+    </a>
+    <div id="run-strip" class="run-strip" hidden></div>
+    <button id="restart-button" class="ghost-button" type="button" hidden>重新开始</button>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <section class="loading-panel">
+      <span class="loader"></span>
+      <p>正在读取球员与赛季配置…</p>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="confirm-dialog" class="confirm-dialog">
+    <h2>确定重新开始？</h2>
+    <p>当前选秀和未结束赛季将被清空，无法恢复。</p>
+    <div class="dialog-actions">
+      <button id="cancel-restart" class="secondary-button" type="button">取消</button>
+      <button id="confirm-restart" class="danger-button" type="button">重新选秀</button>
+    </div>
+  </dialog>
+
+  <script type="module" src="/app.js?v=16"></script>
+</body>
+</html>

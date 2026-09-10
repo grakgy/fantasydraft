@@ -1,0 +1,219 @@
+{
+  "version": "2.0",
+  "competition": {
+    "id": "premier_league_2025_26_fantasy",
+    "name": "2025/26英超梦幻赛季",
+    "sourceSeason": "2025/26",
+    "sourceUrl": "https://www.premierleague.com/en/tables/premier-league/2025-26",
+    "clubTemplateCount": 20,
+    "playerReplacesOneClub": true,
+    "replacementSelection": "uniform_random",
+    "aiClubCountAfterReplacement": 19,
+    "scheduleFormat": "double_round_robin",
+    "matchesPerTeam": 38,
+    "leagueMatchCount": 380
+  },
+  "description": "2025/26英超20队聚合模板。每局玩家随机替代一队，其余19队由AI控制。四维仅为游戏平衡模板，不代表官方评级。",
+  "opponents": [
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "displayName": "阿森纳",
+      "formation": "4-3-3",
+      "tactic": "possession",
+      "ratings": { "attack": 76.2, "midfield": 77.6, "defense": 77.6, "goalkeeper": 72.0 },
+      "overall": 75.9,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "aston_villa",
+      "name": "Aston Villa",
+      "displayName": "阿斯顿维拉",
+      "formation": "4-2-3-1",
+      "tactic": "counter",
+      "ratings": { "attack": 74.8, "midfield": 74.8, "defense": 73.4, "goalkeeper": 70.6 },
+      "overall": 73.4,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "bournemouth",
+      "name": "Bournemouth",
+      "displayName": "伯恩茅斯",
+      "formation": "4-2-3-1",
+      "tactic": "high_press",
+      "ratings": { "attack": 70.6, "midfield": 70.6, "defense": 70.6, "goalkeeper": 67.8 },
+      "overall": 69.9,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "brentford",
+      "name": "Brentford",
+      "displayName": "布伦特福德",
+      "formation": "4-4-2",
+      "tactic": "wide",
+      "ratings": { "attack": 70.6, "midfield": 69.2, "defense": 70.6, "goalkeeper": 69.2 },
+      "overall": 69.9,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "brighton",
+      "name": "Brighton and Hove Albion",
+      "displayName": "布莱顿",
+      "formation": "4-2-3-1",
+      "tactic": "possession",
+      "ratings": { "attack": 72.0, "midfield": 72.0, "defense": 70.6, "goalkeeper": 69.2 },
+      "overall": 71.0,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "displayName": "切尔西",
+      "formation": "4-2-3-1",
+      "tactic": "possession",
+      "ratings": { "attack": 76.2, "midfield": 74.8, "defense": 73.4, "goalkeeper": 70.6 },
+      "overall": 73.8,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "burnley",
+      "name": "Burnley",
+      "displayName": "伯恩利",
+      "formation": "4-2-3-1",
+      "tactic": "park_bus",
+      "ratings": { "attack": 65.0, "midfield": 65.0, "defense": 66.4, "goalkeeper": 65.0 },
+      "overall": 65.4,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "crystal_palace",
+      "name": "Crystal Palace",
+      "displayName": "水晶宫",
+      "formation": "3-4-3",
+      "tactic": "counter",
+      "ratings": { "attack": 72.0, "midfield": 70.6, "defense": 73.4, "goalkeeper": 70.6 },
+      "overall": 71.7,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "everton",
+      "name": "Everton",
+      "displayName": "埃弗顿",
+      "formation": "4-2-3-1",
+      "tactic": "park_bus",
+      "ratings": { "attack": 69.2, "midfield": 69.2, "defense": 72.0, "goalkeeper": 70.6 },
+      "overall": 70.3,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "fulham",
+      "name": "Fulham",
+      "displayName": "富勒姆",
+      "formation": "4-2-3-1",
+      "tactic": "balanced",
+      "ratings": { "attack": 70.6, "midfield": 72.0, "defense": 70.6, "goalkeeper": 69.2 },
+      "overall": 70.6,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "west_ham",
+      "name": "West Ham United",
+      "displayName": "西汉姆联",
+      "formation": "4-2-3-1",
+      "tactic": "counter",
+      "ratings": { "attack": 69.2, "midfield": 69.2, "defense": 67.8, "goalkeeper": 67.8 },
+      "overall": 68.5,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "wolves",
+      "name": "Wolverhampton Wanderers",
+      "displayName": "狼队",
+      "formation": "3-4-3",
+      "tactic": "counter",
+      "ratings": { "attack": 66.4, "midfield": 66.4, "defense": 66.4, "goalkeeper": 66.4 },
+      "overall": 66.4,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "leeds_united",
+      "name": "Leeds United",
+      "displayName": "利兹联",
+      "formation": "4-2-3-1",
+      "tactic": "high_press",
+      "ratings": { "attack": 67.8, "midfield": 67.8, "defense": 66.4, "goalkeeper": 65.0 },
+      "overall": 66.8,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "displayName": "利物浦",
+      "formation": "4-2-3-1",
+      "tactic": "high_press",
+      "ratings": { "attack": 77.6, "midfield": 76.2, "defense": 74.8, "goalkeeper": 73.4 },
+      "overall": 75.5,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "man_city",
+      "name": "Manchester City",
+      "displayName": "曼城",
+      "formation": "4-3-3",
+      "tactic": "possession",
+      "ratings": { "attack": 77.6, "midfield": 80.4, "defense": 76.2, "goalkeeper": 72.0 },
+      "overall": 76.6,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "man_utd",
+      "name": "Manchester United",
+      "displayName": "曼联",
+      "formation": "4-2-3-1",
+      "tactic": "counter",
+      "ratings": { "attack": 72.0, "midfield": 72.0, "defense": 69.2, "goalkeeper": 69.2 },
+      "overall": 70.6,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "newcastle_united",
+      "name": "Newcastle United",
+      "displayName": "纽卡斯尔联",
+      "formation": "4-3-3",
+      "tactic": "high_press",
+      "ratings": { "attack": 74.8, "midfield": 73.4, "defense": 73.4, "goalkeeper": 72.0 },
+      "overall": 73.4,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "nottingham_forest",
+      "name": "Nottingham Forest",
+      "displayName": "诺丁汉森林",
+      "formation": "4-2-3-1",
+      "tactic": "counter",
+      "ratings": { "attack": 70.6, "midfield": 69.2, "defense": 73.4, "goalkeeper": 72.0 },
+      "overall": 71.3,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "sunderland",
+      "name": "Sunderland",
+      "displayName": "桑德兰",
+      "formation": "4-2-3-1",
+      "tactic": "balanced",
+      "ratings": { "attack": 66.4, "midfield": 65.0, "defense": 65.0, "goalkeeper": 63.6 },
+      "overall": 65.0,
+      "model": "aggregate_template"
+    },
+    {
+      "id": "tottenham",
+      "name": "Tottenham Hotspur",
+      "displayName": "托特纳姆热刺",
+      "formation": "4-3-3",
+      "tactic": "all_out_attack",
+      "ratings": { "attack": 73.4, "midfield": 72.0, "defense": 70.6, "goalkeeper": 69.2 },
+      "overall": 71.3,
+      "model": "aggregate_template"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "fm26-fantasy-draft",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "node --watch server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "cf:dev": "wrangler dev",
+    "cf:dry-run": "wrangler deploy --dry-run",
+    "cf:deploy": "wrangler deploy"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "footballsim": "5.0.5"
+  },
+  "devDependencies": {
+    "wrangler": "4.130.0"
+  }
+}

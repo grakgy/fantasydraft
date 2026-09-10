@@ -1,0 +1,270 @@
+{
+  "version": "1.2.0",
+  "description": "PVP连续2D比赛核心的可审计参数。所有距离使用米、时间使用秒；修改后必须重新运行连续引擎测试。",
+  "pitch": {
+    "length": 105,
+    "width": 68,
+    "goalWidth": 7.32,
+    "goalHeight": 2.44,
+    "penaltyAreaDepth": 16.5
+  },
+  "clock": {
+    "tickRate": 20,
+    "auditSnapshotRate": 2,
+    "halfDuration": 2700,
+    "decisionInterval": 0.25
+  },
+  "movement": {
+    "outfieldAbsoluteMaxSpeed": 10,
+    "goalkeeperAbsoluteMaxSpeed": 9,
+    "minimumPlayerMaxSpeed": 7.2,
+    "maximumPlayerMaxSpeed": 9.6,
+    "minimumAcceleration": 4,
+    "maximumAcceleration": 6,
+    "maximumBraking": 8,
+    "controlledBallSpeedMinimumFactor": 0.88,
+    "controlledBallSpeedMaximumFactor": 0.96,
+    "minimumPlayerSeparation": 0.6,
+    "boundaryPadding": 0.25
+  },
+  "ball": {
+    "controlRadius": 1.05,
+    "interceptionRadius": 0.9,
+    "minimumPassSpeed": 11,
+    "maximumPassSpeed": 25,
+    "shotSpeedMinimum": 23,
+    "shotSpeedMaximum": 32,
+    "friction": 2.2,
+    "goalLineSafetyMargin": 0.12,
+    "goalNetDepth": 1.4,
+    "goalPauseSeconds": 1.8
+  },
+  "decision": {
+    "minimumActionDelay": 1.32,
+    "maximumActionDelay": 2.7,
+    "routineShotDistance": 32,
+    "absoluteShotDistance": 40,
+    "highPressMaximumPressers": 2,
+    "normalMaximumPressers": 1,
+    "transitionDuration": 4,
+    "passLeadSeconds": 0.45,
+    "clearShotDistance": 18,
+    "clearShotMaximumPressure": 0.25,
+    "clearShotMinimumLaneClarity": 0.55,
+    "clearShotMinimumCentrality": 0.45,
+    "clearShotMinimumFacing": 0,
+    "shotValueMargin": 0,
+    "attackingTouchDelayMinimum": 0.75,
+    "attackingTouchDelayMaximum": 1.45,
+    "routineTouchDelayMinimum": 2.15,
+    "routineTouchDelayMaximum": 3.35
+  },
+  "defending": {
+    "threatActivationDepth": 45,
+    "penaltyThreatDepth": 19,
+    "centralDangerHalfWidth": 18,
+    "markDistanceInBox": 1.8,
+    "markDistanceOutsideBox": 3.2,
+    "emergencyRecoveryDepth": 34,
+    "holdingMidfielderRecoveryLine": 21,
+    "centralMidfielderRecoveryLine": 27,
+    "attackingMidfielderRecoveryLine": 33,
+    "ownGoalBaseChance": 0.0015,
+    "ownGoalMaximumChance": 0.012,
+    "scrambleAfterBlockChance": 0.28
+  },
+  "attacking": {
+    "finalThirdActivationDepth": 68,
+    "penaltyBoxEntryDepth": 88.5,
+    "boxEdgeSupportDepth": 81,
+    "maximumLateRunners": 1,
+    "maximumPurposefulCutbackLength": 22,
+    "deepRecycleMinimumDepth": 72
+  },
+  "goalkeeping": {
+    "reactionDelayMinimum": 0.08,
+    "reactionDelayMaximum": 0.42,
+    "catchBaseChance": 0.38,
+    "cornerParryBaseChance": 0.22,
+    "woodworkChance": 0.055
+  },
+  "firstTimeActions": {
+    "minimumChance": 0.002,
+    "maximumChance": 0.012,
+    "maximumPassSpeed": 23,
+    "shotActivationDepth": 82
+  },
+  "discipline": {
+    "minimumFoulChance": 0.018,
+    "maximumFoulChance": 0.14,
+    "teamChallengeCooldownAfterFoul": 45
+  },
+  "setPieces": {
+    "penaltySpotDistance": 11,
+    "directFreeKickMaximumDistance": 30,
+    "restartDelay": 2.2,
+    "marginalOffsideDistance": 1.2,
+    "disallowedGoalChance": 0.35,
+    "offsidePassMinimumChance": 0.16,
+    "offsidePassMaximumChance": 0.38
+  },
+  "footballPrinciples": {
+    "tacticalInfluence": 0.3,
+    "attackingLines": {
+      "centreBackBase": 18,
+      "centreBackProgressFactor": 0.32,
+      "fullbackBase": 22,
+      "fullbackProgressFactor": 0.34,
+      "holdingMidfieldBase": 30,
+      "holdingMidfieldProgressFactor": 0.3,
+      "midfieldBase": 40,
+      "midfieldProgressFactor": 0.34
+    },
+    "defendingLines": {
+      "lowBlock": { "defense": 17, "midfield": 32, "forward": 48 },
+      "midBlock": { "defense": 29, "midfield": 45, "forward": 60 },
+      "highBlock": { "defense": 42, "midfield": 57, "forward": 71 },
+      "transition": { "defense": 24, "midfield": 40, "forward": 55 }
+    },
+    "minimumCounterOutletDepth": 52,
+    "secondCounterOutletQuality": 0.82,
+    "fullbackOverlapMinimumQuality": 0.5,
+    "fullbackOverlapMaximumDepth": 76,
+    "fullbackOverlapDistanceBeyondBall": 8,
+    "centreBackStepMaximumDepth": 57,
+    "targetShapeSeparation": 4.2,
+    "lateGameAdjustmentStartMinute": 70,
+    "maximumGameStateLineAdjustment": 2.5,
+    "setPieceShapeReadyRatio": 0.72
+  },
+  "tactics": {
+    "balanced": {
+      "attackWidth": 1.0,
+      "defensiveWidth": 0.82,
+      "lineHeight": 0,
+      "fullbackAdvance": 6,
+      "midfieldAdvance": 3,
+      "forwardAdvance": 3,
+      "pressers": 1,
+      "passDirectness": 1.0,
+      "passSafety": 1.0,
+      "supportDistance": 1.0,
+      "tempo": 1.0,
+      "counterRun": 4,
+      "widePassBias": 0
+    },
+    "possession": {
+      "attackWidth": 0.94,
+      "defensiveWidth": 0.78,
+      "lineHeight": 5,
+      "fullbackAdvance": 8,
+      "midfieldAdvance": 6,
+      "forwardAdvance": 2,
+      "pressers": 2,
+      "passDirectness": 0.68,
+      "passSafety": 1.35,
+      "supportDistance": 0.72,
+      "tempo": 1.18,
+      "counterRun": 2,
+      "widePassBias": -2
+    },
+    "counter": {
+      "attackWidth": 0.92,
+      "defensiveWidth": 0.72,
+      "lineHeight": -8,
+      "fullbackAdvance": 3,
+      "midfieldAdvance": 1,
+      "forwardAdvance": 1,
+      "pressers": 1,
+      "passDirectness": 1.58,
+      "passSafety": 0.82,
+      "supportDistance": 1.18,
+      "tempo": 1.12,
+      "counterRun": 14,
+      "widePassBias": 1
+    },
+    "wide": {
+      "attackWidth": 1.18,
+      "defensiveWidth": 0.88,
+      "lineHeight": 1,
+      "fullbackAdvance": 12,
+      "midfieldAdvance": 3,
+      "forwardAdvance": 4,
+      "pressers": 1,
+      "passDirectness": 1.05,
+      "passSafety": 0.94,
+      "supportDistance": 1.02,
+      "tempo": 1.04,
+      "counterRun": 5,
+      "widePassBias": 10
+    },
+    "high_press": {
+      "attackWidth": 1.0,
+      "defensiveWidth": 0.8,
+      "lineHeight": 11,
+      "fullbackAdvance": 9,
+      "midfieldAdvance": 7,
+      "forwardAdvance": 5,
+      "pressers": 3,
+      "passDirectness": 1.08,
+      "passSafety": 0.9,
+      "supportDistance": 0.9,
+      "tempo": 1.2,
+      "counterRun": 7,
+      "widePassBias": 0
+    },
+    "park_bus": {
+      "attackWidth": 0.82,
+      "defensiveWidth": 0.62,
+      "lineHeight": -14,
+      "fullbackAdvance": 1,
+      "midfieldAdvance": -3,
+      "forwardAdvance": -6,
+      "pressers": 1,
+      "passDirectness": 1.34,
+      "passSafety": 0.86,
+      "supportDistance": 1.12,
+      "tempo": 0.88,
+      "counterRun": 10,
+      "widePassBias": 0
+    },
+    "all_out_attack": {
+      "attackWidth": 1.08,
+      "defensiveWidth": 0.86,
+      "lineHeight": 15,
+      "fullbackAdvance": 16,
+      "midfieldAdvance": 10,
+      "forwardAdvance": 9,
+      "pressers": 3,
+      "passDirectness": 1.28,
+      "passSafety": 0.7,
+      "supportDistance": 0.9,
+      "tempo": 1.25,
+      "counterRun": 10,
+      "widePassBias": 4
+    }
+  },
+  "audit": {
+    "movementTolerance": 0.03,
+    "swarmRadius": 3,
+    "swarmMaximumPlayers": 4,
+    "swarmMaximumDuration": 1,
+    "sameTeamCrowdRadius": 8,
+    "sameTeamCrowdMaximumPlayers": 5,
+    "sameTeamCrowdMaximumDuration": 2
+  },
+  "calibration": {
+    "description": "仅用于阻止明显不像足球的版本进入画面层；不是最终联赛分布，Gate 4需用公开数据重新校准。",
+    "minimumSampleMatches": 3,
+    "sanityBandsPerMatch": {
+      "totalGoals": [0.8, 5.0],
+      "totalShots": [14, 38],
+      "totalXg": [1.2, 5.5],
+      "totalPasses": [800, 1800],
+      "successfulTackles": [18, 90],
+      "interceptions": [15, 80],
+      "offsides": [0.25, 8],
+      "clearances": [2, 80]
+    }
+  }
+}

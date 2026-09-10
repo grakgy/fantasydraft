@@ -1,0 +1,18 @@
+# Dependencies and package-manager cache
+node_modules/
+.pnpm-store/
+
+# Local game saves and Cloudflare development state
+web/runtime/
+.wrangler/
+
+# Local secrets
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+
+# Generated reports and logs
+coverage/
+*.log
