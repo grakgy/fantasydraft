@@ -50,7 +50,7 @@ pnpm exec wrangler login
 pnpm cf:deploy
 ```
 
-如果使用 Cloudflare 的 Git 集成，把项目根目录设为 `web`，部署命令设为 `pnpm cf:deploy`。`wrangler.jsonc` 已包含静态资源、Durable Object 绑定和首次 SQLite 迁移；不要在控制台另建同名绑定。
+如果使用 Cloudflare 的 Git 集成，把应用名设为 `fantasydraft`、项目根目录设为 `web`，部署命令设为 `pnpm cf:deploy`。`wrangler.jsonc` 已包含静态资源、Durable Object 绑定和首次 SQLite 迁移；不要在控制台另建同名绑定。
 
 上传 Git 前无需手动删除本地文件；根目录 `.gitignore` 已排除 `web/runtime/`、`node_modules/`、`.pnpm-store/`、`.wrangler/` 和本地环境变量文件。
 

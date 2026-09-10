@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "fm26-fantasy-draft",
+  "name": "fantasydraft",
   "main": "worker.mjs",
   "compatibility_date": "2026-09-10",
   "compatibility_flags": ["nodejs_compat"],
